@@ -74,6 +74,7 @@ a:hover {
 }
 
 .brand span {
+  max-width: 260px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -152,16 +153,16 @@ p {
 }
 
 h1 {
-  margin-bottom: 24px;
-  font-size: clamp(48px, 7.4vw, 96px);
-  line-height: 0.96;
+  margin-bottom: 18px;
+  font-size: clamp(42px, 6vw, 76px);
+  line-height: 1;
   letter-spacing: 0;
 }
 
 h2 {
-  margin-bottom: 18px;
-  font-size: clamp(30px, 4vw, 48px);
-  line-height: 1.04;
+  margin-bottom: 14px;
+  font-size: clamp(26px, 3vw, 40px);
+  line-height: 1.08;
   letter-spacing: 0;
 }
 
@@ -174,8 +175,8 @@ h3 {
 .hero-lede,
 .page-heading p:not(.eyebrow) {
   color: var(--muted);
-  font-size: 19px;
-  line-height: 1.72;
+  font-size: 17px;
+  line-height: 1.55;
 }
 
 .hero-actions {
@@ -619,7 +620,7 @@ h3 {
 }
 
 .page-heading h1 {
-  font-size: clamp(44px, 6.5vw, 78px);
+  font-size: clamp(38px, 5vw, 58px);
 }
 
 .people-section,
@@ -629,7 +630,7 @@ h3 {
 
 .people-section h2,
 .publication-year h2 {
-  font-size: 34px;
+  font-size: 30px;
 }
 
 .profile-row {
@@ -806,8 +807,112 @@ h3 {
 }
 
 .publication {
-  margin-bottom: 14px;
-  padding: 24px 26px;
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 22px;
+  align-items: stretch;
+  margin-bottom: 16px;
+  padding: 14px;
+}
+
+.paper-body {
+  padding: 8px 8px 8px 0;
+}
+
+.paper-visual {
+  position: relative;
+  min-height: 142px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    repeating-linear-gradient(0deg, rgba(16, 19, 26, 0.055) 0 1px, transparent 1px 18px),
+    repeating-linear-gradient(90deg, rgba(16, 19, 26, 0.055) 0 1px, transparent 1px 18px),
+    linear-gradient(135deg, #f8fafc, #edf2f8);
+}
+
+.paper-visual::before,
+.paper-visual::after,
+.paper-visual span,
+.paper-visual i,
+.paper-visual b {
+  content: "";
+  position: absolute;
+  display: block;
+}
+
+.paper-visual::before {
+  inset: 28px 20px;
+  border: 2px solid rgba(40, 86, 163, 0.42);
+  border-left-color: transparent;
+  border-radius: 50%;
+  transform: rotate(-16deg);
+}
+
+.paper-visual::after {
+  width: 18px;
+  height: 10px;
+  right: 42px;
+  bottom: 42px;
+  border-radius: 2px;
+  background: var(--red);
+  transform: rotate(-18deg);
+  box-shadow: -42px -34px 0 var(--accent);
+}
+
+.paper-visual span {
+  right: 18px;
+  left: 18px;
+  top: 50%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent), var(--red), transparent);
+  transform: rotate(-12deg);
+}
+
+.paper-visual i {
+  width: 60px;
+  height: 34px;
+  left: 22px;
+  bottom: 22px;
+  border: 2px solid rgba(16, 19, 26, 0.18);
+  border-radius: 5px;
+}
+
+.paper-visual b {
+  width: 7px;
+  height: 7px;
+  left: 38px;
+  top: 34px;
+  border-radius: 50%;
+  background: var(--ink);
+  box-shadow: 34px 18px 0 var(--accent), 82px 46px 0 var(--red);
+}
+
+.paper-visual.llm::before {
+  border-radius: 8px;
+  transform: none;
+}
+
+.paper-visual.llm i {
+  width: 88px;
+  height: 52px;
+  left: 28px;
+  top: 52px;
+  border-radius: 8px;
+}
+
+.paper-visual.racing span,
+.paper-visual.overtake span {
+  transform: rotate(9deg);
+}
+
+.paper-visual.gp::before,
+.paper-visual.safety::before {
+  border-style: dashed;
+}
+
+.paper-visual.parking::before {
+  border-radius: 12px;
 }
 
 .paper-title {
@@ -950,7 +1055,7 @@ h3 {
 
   h1,
   .page-heading h1 {
-    font-size: 42px;
+    font-size: 36px;
   }
 
   h2 {
@@ -988,6 +1093,14 @@ h3 {
   .profile-links {
     justify-content: flex-start;
     max-width: none;
+  }
+
+  .publication {
+    grid-template-columns: 1fr;
+  }
+
+  .paper-body {
+    padding: 4px;
   }
 
   .avatar {
