@@ -29,36 +29,25 @@
       <section class="hero">
         <div class="hero-content">
           <p class="eyebrow">Zhejiang University / Control Science and Engineering</p>
-          <h1>Control at the limit.</h1>
+          <h1>Driving Drifting Racing X</h1>
+          <p class="hero-lede">Vehicle control, planning, and learning at the edge of handling.</p>
           <div class="hero-actions" aria-label="Primary links">
             <a class="button primary" href="publications.html">Explore Publications</a>
             <a class="button secondary" href="projects.html">View Research</a>
           </div>
         </div>
 
-        <div class="hero-visual" aria-label="DDRX research visual">
-          <img class="hero-logo" src="assets/images/ddrx-logo-transparent.png" alt="DDRX">
-          <div class="track-visual" aria-hidden="true">
-            <span class="track-line line-a"></span>
-            <span class="track-line line-b"></span>
-            <span class="track-line line-c"></span>
-            <span class="node node-a"></span>
-            <span class="node node-b"></span>
-            <span class="node node-c"></span>
+        <div class="hero-visual figure-wall" aria-label="DDRX research visuals">
+          <div class="wall-top">
+            <img src="assets/images/papers/fsdp-overtaking.png" alt="Overtaking trajectory planning overview">
           </div>
-          <div class="signal-grid">
-            <div>
-              <strong>MPC</strong>
-              <span>predictive control</span>
-            </div>
-            <div>
-              <strong>GP</strong>
-              <span>learned dynamics</span>
-            </div>
-            <div>
-              <strong>RL</strong>
-              <span>adaptive policy</span>
-            </div>
+          <div class="wall-grid">
+            <img src="assets/images/papers/extreme-turning-drift.png" alt="Extreme turning drift experiment">
+            <img src="assets/images/papers/sparse-gp-drifting.png" alt="Sparse Gaussian process drifting overview">
+          </div>
+          <div class="wall-caption">
+            <img src="assets/images/ddrx-logo-transparent.png" alt="DDRX">
+            <span>closed-loop autonomy from model to track</span>
           </div>
         </div>
       </section>
@@ -66,19 +55,19 @@
       <section class="metrics-band" aria-label="Team highlights">
         <div>
           <strong>2023</strong>
-          <span>DDRX founded</span>
+          <span>founded</span>
         </div>
         <div>
           <strong>3</strong>
-          <span>core research thrusts</span>
+          <span>research thrusts</span>
         </div>
         <div>
-          <strong>DDRX</strong>
-          <span>Driving Drifting Racing X</span>
+          <strong>MPC</strong>
+          <span>optimization backbone</span>
         </div>
         <div>
-          <strong>IV 2024</strong>
-          <span>Grand Prix 4th place</span>
+          <strong>F1TENTH</strong>
+          <span>track validation</span>
         </div>
       </section>
 
@@ -96,16 +85,19 @@
 
       <section class="research-matrix" aria-label="Research areas">
         <article>
+          <img class="research-thumb" src="assets/images/papers/parking-flatness.png" alt="">
           <span class="tag">01</span>
           <h3>Autonomous Driving</h3>
           <p>Automated parking, yaw stability, cooperative localization, and distributed nonlinear MPC for vehicle platoons.</p>
         </article>
         <article>
+          <img class="research-thumb" src="assets/images/papers/inertia-drift.png" alt="">
           <span class="tag">02</span>
           <h3>Autonomous Drifting</h3>
           <p>Learning-based MPC, sparse Gaussian processes, iLQR, and safety filters for vehicles near the limits of handling.</p>
         </article>
         <article>
+          <img class="research-thumb" src="assets/images/papers/cimpcc-racing.png" alt="">
           <span class="tag">03</span>
           <h3>Autonomous Racing</h3>
           <p>MPCC planning, overtaking, onboard reinforcement learning, fast system identification, and F1TENTH validation.</p>
@@ -149,14 +141,17 @@
           </div>
           <div class="paper-strip">
             <a href="https://arxiv.org/abs/2507.05748" target="_blank" rel="noreferrer">
+              <img src="assets/images/papers/inertia-drift.png" alt="">
               <span>ITSC 2025</span>
               <strong>A Learning-Based Planning and Control Framework for Inertia Drift Vehicles</strong>
             </a>
             <a href="https://arxiv.org/abs/2503.06075" target="_blank" rel="noreferrer">
+              <img src="assets/images/papers/fsdp-overtaking.png" alt="">
               <span>IROS 2025</span>
               <strong>FSDP: Fast and Safe Data-Driven Overtaking Trajectory Planning</strong>
             </a>
             <a href="https://arxiv.org/abs/2410.11570" target="_blank" rel="noreferrer">
+              <img src="assets/images/papers/vpmpcc-racing.png" alt="">
               <span>ICRA 2025</span>
               <strong>Data-Driven Aggressive Autonomous Racing with Velocity Prediction</strong>
             </a>
