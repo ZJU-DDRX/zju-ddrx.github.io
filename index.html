@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="zh-CN">
+﻿<!doctype html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +11,7 @@
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="DDRX home">
         <img src="assets/images/ddrx-logo-transparent.png" alt="DDRX">
-        <span>DDRX Vehicle Control Group</span>
+        <span>Vehicle Control Group</span>
       </a>
       <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -20,64 +20,149 @@
         <a href="index.html" aria-current="page">Home</a>
         <a href="people.html">People</a>
         <a href="publications.html">Publications</a>
-        <a href="projects.html">Projects</a>
+        <a href="projects.html">Research</a>
         <a href="contact.html">Contact</a>
       </nav>
     </header>
 
     <main>
       <section class="hero">
-        <div class="hero-media" aria-hidden="true">
-          <img src="assets/images/ddrx-logo-transparent.png" alt="">
-        </div>
         <div class="hero-content">
-          <p class="eyebrow">Zhejiang University · Control Science and Engineering</p>
-          <h1>DDRX Vehicle Control Group</h1>
+          <p class="eyebrow">Zhejiang University / Control Science and Engineering</p>
+          <h1>Control at the limit of vehicle intelligence.</h1>
+          <p class="hero-lede">
+            DDRX studies autonomous driving, drifting, and racing systems that reason, plan, and control under high speed, uncertainty, and physical limits.
+          </p>
+          <div class="hero-actions" aria-label="Primary links">
+            <a class="button primary" href="publications.html">Explore Publications</a>
+            <a class="button secondary" href="projects.html">View Research</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="DDRX research visual">
+          <img class="hero-logo" src="assets/images/ddrx-logo-transparent.png" alt="DDRX">
+          <div class="track-visual" aria-hidden="true">
+            <span class="track-line line-a"></span>
+            <span class="track-line line-b"></span>
+            <span class="track-line line-c"></span>
+            <span class="node node-a"></span>
+            <span class="node node-b"></span>
+            <span class="node node-c"></span>
+          </div>
+          <div class="signal-grid">
+            <div>
+              <strong>MPC</strong>
+              <span>predictive control</span>
+            </div>
+            <div>
+              <strong>GP</strong>
+              <span>learned dynamics</span>
+            </div>
+            <div>
+              <strong>RL</strong>
+              <span>adaptive policy</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics-band" aria-label="Team highlights">
+        <div>
+          <strong>2023</strong>
+          <span>team founded</span>
+        </div>
+        <div>
+          <strong>3</strong>
+          <span>core research thrusts</span>
+        </div>
+        <div>
+          <strong>F1TENTH</strong>
+          <span>autonomous racing platform</span>
+        </div>
+        <div>
+          <strong>IV 2024</strong>
+          <span>Grand Prix 4th place</span>
+        </div>
+      </section>
+
+      <section class="split-section">
+        <div class="section-kicker">
+          <p class="eyebrow">Mission</p>
+          <h2>From control theory to high-performance autonomy.</h2>
+        </div>
+        <div class="section-copy">
           <p>
-            DDRX, short for Driving, Drifting, Racing and X, is a vehicle control and autonomous driving team founded in 2023 at Zhejiang University. Guided by Professors Lei Xie and Hongye Su, the team explores advanced control, trajectory planning, autonomous drifting, autonomous racing, and vehicle dynamics at the limit of handling.
+            DDRX, short for Driving, Drifting, Racing and X, is guided by Professors Lei Xie and Hongye Su at Zhejiang University. The group develops algorithms and systems for autonomous vehicles operating in difficult regimes: aggressive maneuvers, interaction-rich traffic, tire saturation, model mismatch, and real-time compute constraints.
           </p>
         </div>
       </section>
 
-      <section class="intro-band">
-        <div class="intro-text">
-          <h2>About</h2>
-          <p>
-            DDRX 面向自动驾驶、漂移控制、自动竞速与车辆动力学极限操控，围绕车辆轨迹规划、模型预测控制、极限工况车辆操控、自动驾驶系统验证与 F1TENTH 等真实平台开展研究。
-          </p>
+      <section class="research-matrix" aria-label="Research areas">
+        <article>
+          <span class="tag">01</span>
+          <h3>Autonomous Driving</h3>
+          <p>Automated parking, yaw stability, cooperative localization, and distributed nonlinear MPC for vehicle platoons.</p>
+        </article>
+        <article>
+          <span class="tag">02</span>
+          <h3>Autonomous Drifting</h3>
+          <p>Learning-based MPC, sparse Gaussian processes, iLQR, and safety filters for vehicles near the limits of handling.</p>
+        </article>
+        <article>
+          <span class="tag">03</span>
+          <h3>Autonomous Racing</h3>
+          <p>MPCC planning, overtaking, onboard reinforcement learning, fast system identification, and F1TENTH validation.</p>
+        </article>
+      </section>
+
+      <section class="pipeline-section">
+        <div class="section-kicker">
+          <p class="eyebrow">Research Pipeline</p>
+          <h2>Model. Plan. Learn. Validate.</h2>
         </div>
-        <div class="fact-grid" aria-label="Research highlights">
+        <div class="pipeline">
           <div>
-            <strong>Autonomous Driving</strong>
-            <span>Automated parking, yaw stability control, cooperative localization, and vehicle platoon control.</span>
+            <span>1</span>
+            <strong>Dynamics</strong>
+            <p>Vehicle models, tire behavior, residual learning, and uncertainty-aware prediction.</p>
           </div>
           <div>
-            <strong>Autonomous Drifting</strong>
-            <span>Learning-based MPC, Gaussian-process dynamics, iLQR, and aggressive cornering control.</span>
+            <span>2</span>
+            <strong>Optimization</strong>
+            <p>MPC, MPCC, iLQR, safety filters, and fast trajectory optimization.</p>
           </div>
           <div>
-            <strong>Autonomous Racing</strong>
-            <span>F1TENTH racing platforms, MPCC planning, overtaking, and high-speed closed-loop validation.</span>
+            <span>3</span>
+            <strong>Learning</strong>
+            <p>Gaussian processes, reinforcement learning, onboard adaptation, and data-driven planning.</p>
+          </div>
+          <div>
+            <span>4</span>
+            <strong>Deployment</strong>
+            <p>Simulation, scaled platforms, competition tracks, and real-world closed-loop experiments.</p>
           </div>
         </div>
       </section>
 
-      <section class="content-grid">
-        <div class="main-column">
-          <h2>Research Areas</h2>
-          <div class="research-list">
-            <article>
-              <h3>Safe and Robust Vehicle Control</h3>
-              <p>Model predictive control, safety filtering, stability control, and trajectory tracking for vehicles operating near physical limits.</p>
-            </article>
-            <article>
-              <h3>Learning-Based Planning and Control</h3>
-              <p>Data-driven planning, residual dynamics learning, Gaussian-process models, reinforcement learning, and adaptive MPC for autonomous vehicles.</p>
-            </article>
-            <article>
-              <h3>Autonomous Racing and Drifting</h3>
-              <p>High-performance racing, overtaking, autonomous drifting, aggressive cornering, and real-time planning on scaled and experimental platforms.</p>
-            </article>
+      <section class="home-grid">
+        <div>
+          <div class="section-heading">
+            <p class="eyebrow">Selected Output</p>
+            <h2>Recent publications</h2>
+          </div>
+          <div class="paper-strip">
+            <a href="https://arxiv.org/abs/2507.05748" target="_blank" rel="noreferrer">
+              <span>ITSC 2025</span>
+              <strong>A Learning-Based Planning and Control Framework for Inertia Drift Vehicles</strong>
+            </a>
+            <a href="https://arxiv.org/abs/2503.06075" target="_blank" rel="noreferrer">
+              <span>IROS 2025</span>
+              <strong>FSDP: Fast and Safe Data-Driven Overtaking Trajectory Planning</strong>
+            </a>
+            <a href="https://arxiv.org/abs/2410.11570" target="_blank" rel="noreferrer">
+              <span>ICRA 2025</span>
+              <strong>Data-Driven Aggressive Autonomous Racing with Velocity Prediction</strong>
+            </a>
           </div>
         </div>
 
@@ -102,7 +187,7 @@
 
       <section class="source-band">
         <div>
-          <h2>Sources</h2>
+          <h2>Academic indexes and public sources</h2>
           <p>Public information on this draft site is collected from Zhejiang University profile pages, the DDRX website, DBLP, ORCID, and OpenReview.</p>
         </div>
         <div class="source-links">

@@ -1,47 +1,80 @@
-<!doctype html>
-<html lang="zh-CN">
+﻿<!doctype html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Projects · DDRX Vehicle Control Group</title>
+    <title>Research - DDRX Vehicle Control Group</title>
     <link rel="stylesheet" href="assets/css/styles.css">
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="index.html"><img src="assets/images/ddrx-logo-transparent.png" alt="DDRX"><span>DDRX Vehicle Control Group</span></a>
+      <a class="brand" href="index.html"><img src="assets/images/ddrx-logo-transparent.png" alt="DDRX"><span>Vehicle Control Group</span></a>
       <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
       <nav class="site-nav" aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a href="people.html">People</a>
         <a href="publications.html">Publications</a>
-        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="projects.html" aria-current="page">Research</a>
         <a href="contact.html">Contact</a>
       </nav>
     </header>
 
     <main class="page">
-      <section class="page-heading">
-        <p class="eyebrow">Research</p>
-        <h1>Projects</h1>
-        <p>DDRX focuses on autonomous driving, autonomous drifting, and autonomous racing, connecting advanced control theory with vehicle platforms and competition scenarios.</p>
+      <section class="page-heading wide">
+        <p class="eyebrow">Research Portfolio</p>
+        <h1>Autonomy where control, learning, and vehicle dynamics meet.</h1>
+        <p>DDRX studies intelligent vehicles in regimes where precision matters: tight tracks, low-friction maneuvers, overtaking, drifting, and high-speed closed-loop decision making.</p>
       </section>
 
-      <section class="project-grid">
-        <article class="project-card">
+      <section class="research-showcase">
+        <article>
+          <span class="tag">Driving</span>
           <h2>Autonomous Driving</h2>
-          <p>Automated parking trajectory planning, yaw stability control, distributed nonlinear MPC for vehicle platoons, and cooperative localization with 5G networks.</p>
-          <a href="https://www.zju-ddrx.com/html/Research_dir/" target="_blank" rel="noreferrer">Research</a>
+          <p>Trajectory planning and control for automated parking, yaw stability, cooperative localization, and distributed vehicle platoons.</p>
+          <ul class="clean-list">
+            <li>Guaranteed collision-free planning</li>
+            <li>Two-layer learning MPC for yaw stability</li>
+            <li>Gaussian-process dynamics for platoon control</li>
+          </ul>
+          <a href="https://www.zju-ddrx.com/html/Research_dir/" target="_blank" rel="noreferrer">Public research page</a>
         </article>
-        <article class="project-card">
+        <article>
+          <span class="tag">Drifting</span>
           <h2>Autonomous Drifting</h2>
-          <p>Fast control of drifting states, aggressive cornering, learning-based hierarchical MPC, sparse Gaussian-process dynamics, and ADMM-based iLQR drifting frameworks.</p>
-          <a href="https://www.zju-ddrx.com/html/Research_dir/" target="_blank" rel="noreferrer">Research</a>
+          <p>Controllers and planners for aggressive cornering, inertia drift, and safety-aware operation near tire-force limits.</p>
+          <ul class="clean-list">
+            <li>Learning-based hierarchical MPC</li>
+            <li>Sparse Gaussian-process control strategies</li>
+            <li>Safety-filtered reinforcement learning</li>
+          </ul>
+          <a href="https://arxiv.org/abs/2507.05748" target="_blank" rel="noreferrer">Representative paper</a>
         </article>
-        <article class="project-card">
+        <article>
+          <span class="tag">Racing</span>
           <h2>Autonomous Racing</h2>
-          <p>F1TENTH scaled racing, MPCC and curvature-integrated MPCC planning, data-driven overtaking, onboard reinforcement learning, and real-time system identification.</p>
-          <a href="https://www.zju-ddrx.com/html/Competitions_dir/" target="_blank" rel="noreferrer">Competitions</a>
+          <p>High-performance racing systems with local trajectory planning, velocity prediction, overtaking, and onboard adaptation.</p>
+          <ul class="clean-list">
+            <li>Curvature-integrated MPCC</li>
+            <li>Fast and safe data-driven overtaking</li>
+            <li>F1TENTH competition validation</li>
+          </ul>
+          <a href="https://www.zju-ddrx.com/html/Competitions_dir/" target="_blank" rel="noreferrer">Competition record</a>
         </article>
+      </section>
+
+      <section class="lab-system">
+        <div class="section-heading">
+          <p class="eyebrow">System Stack</p>
+          <h2>An integrated loop from equations to experiments.</h2>
+        </div>
+        <div class="system-grid">
+          <div><strong>Vehicle Dynamics</strong><span>tire forces, residual models, uncertainty</span></div>
+          <div><strong>Trajectory Optimization</strong><span>MPC, MPCC, iLQR, safety filters</span></div>
+          <div><strong>Learning</strong><span>GP dynamics, RL, onboard adaptation</span></div>
+          <div><strong>Real-Time Systems</strong><span>state machines, perception, mapping</span></div>
+          <div><strong>Platforms</strong><span>F1TENTH, scaled vehicles, simulation</span></div>
+          <div><strong>Benchmarks</strong><span>lap time, safety, robustness, transfer</span></div>
+        </div>
       </section>
     </main>
 
