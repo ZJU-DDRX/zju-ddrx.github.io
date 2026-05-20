@@ -195,6 +195,40 @@ h3 {
   border-bottom: 1px solid var(--line);
 }
 
+.source-band {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.7fr);
+  gap: 28px;
+  align-items: center;
+  padding: 48px max(28px, calc((100vw - var(--max)) / 2));
+  border-top: 1px solid var(--line);
+  background: #fff;
+}
+
+.source-band p {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.source-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.source-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--accent-dark);
+  font-size: 14px;
+  font-weight: 700;
+}
+
 .intro-text p {
   color: var(--muted);
 }
@@ -459,9 +493,14 @@ h3 {
 
   .hero,
   .intro-band,
+  .source-band,
   .content-grid,
   .contact-layout {
     grid-template-columns: 1fr;
+  }
+
+  .source-links {
+    justify-content: flex-start;
   }
 
   .hero {
