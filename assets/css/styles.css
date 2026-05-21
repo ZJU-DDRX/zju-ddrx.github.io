@@ -541,7 +541,7 @@ h3 {
 .profile-title-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px 14px;
+  gap: 10px 22px;
   align-items: center;
 }
 
