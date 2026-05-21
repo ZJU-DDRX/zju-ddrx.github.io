@@ -7,7 +7,6 @@
   --color-accent: #8c1515;
   --color-accent-dark: #5f0f0f;
   --layout-max: 1120px;
-  --content-max: 980px;
   --space-page-x: 24px;
 }
 
@@ -202,7 +201,7 @@ h3 {
 }
 
 .home-page {
-  max-width: var(--content-max);
+  max-width: var(--layout-max);
   margin: 0 auto;
   padding-right: var(--space-page-x);
   padding-left: var(--space-page-x);
