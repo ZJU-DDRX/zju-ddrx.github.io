@@ -801,6 +801,93 @@ h3 {
   font-size: 13px;
 }
 
+.life-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 0.58fr) minmax(0, 0.42fr);
+  gap: 28px;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-top: 18px;
+  border-top: 3px solid var(--color-accent);
+}
+
+.life-hero img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: var(--color-soft);
+}
+
+.life-hero p:not(.eyebrow),
+.empty-life-section p {
+  color: var(--color-muted);
+}
+
+.life-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 42px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.life-categories a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 10px;
+  border: 1px solid var(--color-line);
+  color: var(--color-accent);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.life-section {
+  padding-top: 10px;
+}
+
+.life-section + .life-section {
+  margin-top: 48px;
+}
+
+.life-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.life-gallery figure {
+  margin: 0;
+  border-top: 3px solid var(--color-accent);
+}
+
+.life-gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--color-soft);
+}
+
+.life-gallery figcaption {
+  display: grid;
+  gap: 2px;
+  padding-top: 10px;
+}
+
+.life-gallery time {
+  color: var(--color-accent);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.life-gallery span {
+  color: var(--color-ink);
+  font-weight: 700;
+}
+
 .life-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -895,6 +982,7 @@ h3 {
   .lab-intro,
   .front-columns,
   .source-band,
+  .life-hero,
   .competition-card,
   .activity-feature,
   .contact-layout {
@@ -906,6 +994,7 @@ h3 {
   .profile-grid,
   .award-highlights,
   .life-grid,
+  .life-gallery,
   .system-grid {
     grid-template-columns: 1fr;
   }
