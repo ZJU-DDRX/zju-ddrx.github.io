@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -9,151 +9,105 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="index.html" aria-label="DDRX home">
-        <img src="assets/images/ddrx-logo-transparent.png" alt="DDRX">
-        <span>Driving Drifting Racing X</span>
-      </a>
-      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="site-nav" aria-label="Main navigation">
-        <a href="index.html" aria-current="page">Home</a>
-        <a href="people.html">People</a>
-        <a href="publications.html">Publications</a>
-        <a href="projects.html">Research</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+      <div class="top-rule"></div>
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="DDRX home">
+          <img src="assets/images/ddrx-logo-transparent.png" alt="DDRX">
+          <span>Driving Drifting Racing X</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="people.html">People</a>
+          <a href="publications.html">Publications</a>
+          <a href="projects.html">Research</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <section class="hero">
-        <div class="hero-content">
-          <p class="eyebrow">Zhejiang University / Control Science and Engineering</p>
-          <h1>Driving Drifting Racing X</h1>
-          <p class="hero-lede">Vehicle control, planning, and learning at the edge of handling.</p>
-          <div class="hero-actions" aria-label="Primary links">
-            <a class="button primary" href="publications.html">Explore Publications</a>
-            <a class="button secondary" href="projects.html">View Research</a>
-          </div>
+      <section class="lab-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Zhejiang University · Control Science and Engineering</p>
+          <h1>DDRX Vehicle Control Group</h1>
+          <p>We study control, planning, and learning for autonomous vehicles at the limits of handling.</p>
         </div>
-
-        <div class="hero-visual figure-wall" aria-label="DDRX research visuals">
-          <div class="wall-top">
-            <img src="assets/images/papers/fsdp-overtaking.png" alt="Overtaking trajectory planning overview">
-          </div>
-          <div class="wall-grid">
-            <img src="assets/images/papers/extreme-turning-drift.png" alt="Extreme turning drift experiment">
-            <img src="assets/images/papers/sparse-gp-drifting.png" alt="Sparse Gaussian process drifting overview">
-          </div>
-          <div class="wall-caption">
-            <img src="assets/images/ddrx-logo-transparent.png" alt="DDRX">
-            <span>closed-loop autonomy from model to track</span>
-          </div>
+        <div class="hero-image-grid" aria-label="Research overview figures">
+          <img class="hero-image-main" src="assets/images/papers/fsdp-overtaking.png" alt="Safe overtaking trajectory planning overview">
+          <img src="assets/images/papers/extreme-turning-drift.png" alt="Extreme turning drift experiment">
+          <img src="assets/images/papers/sparse-gp-drifting.png" alt="Sparse Gaussian process drifting overview">
         </div>
       </section>
 
-      <section class="metrics-band" aria-label="Team highlights">
+      <section class="lab-intro">
         <div>
-          <strong>2023</strong>
-          <span>founded</span>
+          <h2>Research</h2>
+          <p>DDRX builds autonomous driving, drifting, and racing systems that combine model predictive control, learned dynamics, safety filters, and real-time platform validation.</p>
         </div>
-        <div>
-          <strong>3</strong>
-          <span>research thrusts</span>
-        </div>
-        <div>
-          <strong>MPC</strong>
-          <span>optimization backbone</span>
-        </div>
-        <div>
-          <strong>F1TENTH</strong>
-          <span>track validation</span>
+        <div class="intro-facts">
+          <span><strong>2023</strong> founded</span>
+          <span><strong>F1TENTH</strong> track validation</span>
+          <span><strong>MPC</strong> optimization backbone</span>
         </div>
       </section>
 
-      <section class="split-section">
-        <div class="section-kicker">
-          <p class="eyebrow">Mission</p>
-          <h2>From control theory to high-performance autonomy.</h2>
-        </div>
-        <div class="section-copy">
-          <p>
-            Led by Prof. Lei Xie, DDRX builds control and learning systems for autonomous vehicles at the limits of handling.
-          </p>
-        </div>
-      </section>
-
-      <section class="research-matrix" aria-label="Research areas">
+      <section class="research-overview">
         <article>
-          <img class="research-thumb" src="assets/images/papers/parking-flatness.png" alt="">
-          <span class="tag">01</span>
-          <h3>Autonomous Driving</h3>
-          <p>Automated parking, yaw stability, cooperative localization, and distributed nonlinear MPC for vehicle platoons.</p>
+          <img src="assets/images/papers/parking-flatness.png" alt="">
+          <div>
+            <p class="eyebrow">Driving</p>
+            <h3>Autonomous Driving</h3>
+            <p>Automated parking, yaw stability, cooperative localization, and vehicle platoon control.</p>
+          </div>
         </article>
         <article>
-          <img class="research-thumb" src="assets/images/papers/inertia-drift.png" alt="">
-          <span class="tag">02</span>
-          <h3>Autonomous Drifting</h3>
-          <p>Learning-based MPC, sparse Gaussian processes, iLQR, and safety filters for vehicles near the limits of handling.</p>
+          <img src="assets/images/papers/inertia-drift.png" alt="">
+          <div>
+            <p class="eyebrow">Drifting</p>
+            <h3>Autonomous Drifting</h3>
+            <p>Learning-based MPC, Gaussian processes, iLQR, and safe control near tire-force limits.</p>
+          </div>
         </article>
         <article>
-          <img class="research-thumb" src="assets/images/papers/cimpcc-racing.png" alt="">
-          <span class="tag">03</span>
-          <h3>Autonomous Racing</h3>
-          <p>MPCC planning, overtaking, onboard reinforcement learning, fast system identification, and F1TENTH validation.</p>
+          <img src="assets/images/papers/cimpcc-racing.png" alt="">
+          <div>
+            <p class="eyebrow">Racing</p>
+            <h3>Autonomous Racing</h3>
+            <p>MPCC planning, overtaking, onboard learning, and scaled vehicle competition systems.</p>
+          </div>
         </article>
       </section>
 
-      <section class="pipeline-section">
-        <div class="section-kicker">
-          <p class="eyebrow">Research Pipeline</p>
-          <h2>Model. Plan. Learn. Validate.</h2>
-        </div>
-        <div class="pipeline">
-          <div>
-            <span>1</span>
-            <strong>Dynamics</strong>
-            <p>Vehicle models, tire behavior, residual learning, and uncertainty-aware prediction.</p>
-          </div>
-          <div>
-            <span>2</span>
-            <strong>Optimization</strong>
-            <p>MPC, MPCC, iLQR, safety filters, and fast trajectory optimization.</p>
-          </div>
-          <div>
-            <span>3</span>
-            <strong>Learning</strong>
-            <p>Gaussian processes, reinforcement learning, onboard adaptation, and data-driven planning.</p>
-          </div>
-          <div>
-            <span>4</span>
-            <strong>Deployment</strong>
-            <p>Simulation, scaled platforms, competition tracks, and real-world closed-loop experiments.</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="home-grid">
-        <div>
+      <section class="front-columns">
+        <div class="front-main">
           <div class="section-heading">
-            <p class="eyebrow">Selected Output</p>
-            <h2>Recent publications</h2>
+            <p class="eyebrow">Selected Publications</p>
+            <h2>Recent work</h2>
           </div>
-          <div class="paper-strip">
+          <div class="featured-list">
             <a href="https://arxiv.org/abs/2507.05748" target="_blank" rel="noreferrer">
               <img src="assets/images/papers/inertia-drift.png" alt="">
-              <span>ITSC 2025</span>
-              <strong>A Learning-Based Planning and Control Framework for Inertia Drift Vehicles</strong>
+              <div>
+                <time>ITSC 2025</time>
+                <strong>A Learning-Based Planning and Control Framework for Inertia Drift Vehicles</strong>
+              </div>
             </a>
             <a href="https://arxiv.org/abs/2503.06075" target="_blank" rel="noreferrer">
               <img src="assets/images/papers/fsdp-overtaking.png" alt="">
-              <span>IROS 2025</span>
-              <strong>FSDP: Fast and Safe Data-Driven Overtaking Trajectory Planning</strong>
+              <div>
+                <time>IROS 2025</time>
+                <strong>FSDP: Fast and Safe Data-Driven Overtaking Trajectory Planning</strong>
+              </div>
             </a>
             <a href="https://arxiv.org/abs/2410.11570" target="_blank" rel="noreferrer">
               <img src="assets/images/papers/vpmpcc-racing.png" alt="">
-              <span>ICRA 2025</span>
-              <strong>Data-Driven Aggressive Autonomous Racing with Velocity Prediction</strong>
+              <div>
+                <time>ICRA 2025</time>
+                <strong>Data-Driven Aggressive Autonomous Racing with Velocity Prediction</strong>
+              </div>
             </a>
           </div>
         </div>
