@@ -534,12 +534,17 @@ h3 {
 
 .profile-head {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 22px;
+  grid-template-columns: 1fr;
+  gap: 8px;
 }
 
 .profile-head h3 {
   font-size: 24px;
+}
+
+.profile-links {
+  margin-top: 4px;
+  justify-content: flex-start;
 }
 
 /* Publications */
