@@ -296,8 +296,8 @@ h3 {
 /* Home */
 .lab-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(260px, 340px);
-  gap: 34px;
+  grid-template-columns: minmax(520px, 1fr) minmax(320px, 0.82fr);
+  gap: 28px;
   align-items: center;
   min-height: 0;
   padding-bottom: 24px;
@@ -318,8 +318,8 @@ h3 {
 }
 
 .hero-brand-panel img {
-  width: min(100%, 330px);
-  max-height: 98px;
+  width: min(100%, 430px);
+  max-height: 126px;
   object-fit: contain;
 }
 
@@ -825,6 +825,10 @@ h3 {
   .news-panel {
     padding-left: 0;
     border-left: 0;
+  }
+
+  .lab-hero {
+    grid-template-columns: 1fr;
   }
 
   .hero-brand-panel {
