@@ -2,6 +2,12 @@
 
 This repository hosts the GitHub Pages website for the DDRX Vehicle Control Group.
 
+For a Chinese guide with copy-ready Codex prompts, see:
+
+```text
+MAINTENANCE.zh-CN.md
+```
+
 Website:
 
 ```text
