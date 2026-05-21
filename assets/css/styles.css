@@ -73,6 +73,19 @@ h1 {
   white-space: nowrap;
 }
 
+.hero-motto span:nth-child(2) {
+  margin-left: 0.22em;
+}
+
+.hero-motto span:nth-child(3) {
+  margin-left: 0.44em;
+}
+
+.hero-motto em {
+  color: var(--color-accent);
+  font-style: normal;
+}
+
 h2 {
   margin-bottom: 18px;
   font-size: clamp(28px, 3.8vw, 40px);
@@ -216,6 +229,7 @@ h3 {
 
 .eyebrow {
   margin-bottom: 12px;
+  white-space: nowrap;
 }
 
 .tag {
@@ -790,7 +804,16 @@ h3 {
     font-size: clamp(31px, 11vw, 40px);
   }
 
+  .hero-motto span:nth-child(2),
+  .hero-motto span:nth-child(3) {
+    margin-left: 0;
+  }
+
   .hero-motto span {
+    white-space: normal;
+  }
+
+  .eyebrow {
     white-space: normal;
   }
 }
