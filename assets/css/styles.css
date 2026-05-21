@@ -468,6 +468,13 @@ h3 {
   list-style: none;
 }
 
+.news-photo {
+  width: 100%;
+  margin-top: 12px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
 .news-facts {
   margin-bottom: 34px;
   padding-bottom: 0;
@@ -485,14 +492,16 @@ h3 {
 }
 
 .compact-slideshow {
+  display: block;
   margin-bottom: 12px;
 }
 
-.home-life-preview a {
+.home-life-preview h2 a {
+  color: var(--color-ink);
+}
+
+.home-life-preview h2 a:hover {
   color: var(--color-accent);
-  font-size: 13px;
-  font-weight: 800;
-  letter-spacing: 0.02em;
 }
 
 .source-band {
@@ -876,6 +885,7 @@ h3 {
   inset: 0;
   width: 100%;
   height: 100%;
+  object-fit: cover;
   opacity: 0;
   transition: opacity 900ms ease;
 }
