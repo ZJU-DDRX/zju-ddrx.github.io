@@ -23,7 +23,7 @@ function createCitationButton(citation) {
         button.textContent = "Cite";
       }, 1600);
     } catch {
-      window.prompt("Copy citation:", citation);
+      window.prompt("Copy BibTeX:", citation);
     }
   });
   return button;
@@ -80,7 +80,7 @@ function renderPublications(publications) {
       const links = document.createElement("div");
       links.className = "paper-links";
       (paper.links || []).forEach((link) => links.appendChild(createLink(link)));
-      links.appendChild(createCitationButton(paper.citation));
+      links.appendChild(createCitationButton(paper.bibtex || paper.citation));
 
       body.append(title, authors, venue, links);
       article.append(figure, body);
