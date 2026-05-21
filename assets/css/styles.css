@@ -488,6 +488,10 @@ h3 {
   border-top: 1px solid var(--color-line);
 }
 
+.home-contact-preview {
+  border-top-color: var(--color-accent);
+}
+
 .home-life-preview h2,
 .home-contact-preview h2 {
   font-size: 30px;
