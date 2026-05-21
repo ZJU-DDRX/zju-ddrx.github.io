@@ -94,6 +94,7 @@ Each record should include:
 - `venue`
 - `image`
 - `alt`
+- `keywords`
 - `links`
 - `citation`
 - `bibtex`
@@ -144,6 +145,14 @@ Current categories:
 
 The hero slideshow uses Team Building images. To change it, edit the image list inside `.life-slideshow`.
 The current slideshow mixes Team Building, Cycling, and Hiking photos. Badminton captions intentionally show dates only.
+
+For source photos, use date-prefixed filenames in the workspace-level `pic/lab-life/` folders:
+
+```text
+YYYY-MM-DD-short-english-description.jpg
+```
+
+When new photos are added, regenerate website-ready images under `assets/images/lab-life/` and sort each section newest first by the filename date. The source `pic/` names are treated as the date source of truth.
 
 ### Join Us
 
