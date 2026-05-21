@@ -470,8 +470,29 @@ h3 {
 
 .news-facts {
   margin-bottom: 34px;
-  padding-bottom: 22px;
-  border-bottom: 1px solid var(--color-line);
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.home-life-preview {
+  margin-top: 34px;
+  padding-top: 26px;
+  border-top: 1px solid var(--color-line);
+}
+
+.home-life-preview h2 {
+  font-size: 30px;
+}
+
+.compact-slideshow {
+  margin-bottom: 12px;
+}
+
+.home-life-preview a {
+  color: var(--color-accent);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
 }
 
 .source-band {
