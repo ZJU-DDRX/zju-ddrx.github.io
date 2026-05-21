@@ -66,7 +66,8 @@ h1 {
 }
 
 .hero-motto {
-  font-size: clamp(36px, 4.4vw, 58px);
+  margin-bottom: 0;
+  font-size: clamp(30px, 3.7vw, 46px);
   line-height: 1.08;
 }
 
@@ -76,11 +77,11 @@ h1 {
 }
 
 .hero-motto span:nth-child(2) {
-  margin-left: 0.22em;
+  margin-left: 0;
 }
 
 .hero-motto span:nth-child(3) {
-  margin-left: 0.44em;
+  margin-left: 0;
 }
 
 .hero-motto em {
@@ -294,10 +295,12 @@ h3 {
 /* Home */
 .lab-hero {
   display: grid;
-  grid-template-columns: 0.88fr 1.12fr;
-  gap: 48px;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 300px);
+  gap: 32px;
   align-items: center;
-  padding-bottom: 28px;
+  min-height: 0;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--color-line);
 }
 
 .hero-copy p:not(.eyebrow) {
@@ -308,13 +311,13 @@ h3 {
 
 .hero-brand-panel {
   display: grid;
-  place-items: center;
-  padding: clamp(20px, 4vw, 48px);
+  justify-items: end;
+  padding: 0;
 }
 
 .hero-brand-panel img {
-  width: min(100%, 760px);
-  max-height: 220px;
+  width: min(100%, 280px);
+  max-height: 84px;
   object-fit: contain;
 }
 
@@ -322,9 +325,8 @@ h3 {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
   gap: 46px;
-  padding-top: 28px;
-  padding-bottom: 44px;
-  border-top: 1px solid var(--color-line);
+  padding-top: 24px;
+  padding-bottom: 32px;
   border-bottom: 1px solid var(--color-line);
 }
 
@@ -357,8 +359,8 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
-  padding-top: 52px;
-  padding-bottom: 60px;
+  padding-top: 38px;
+  padding-bottom: 42px;
 }
 
 .research-overview article,
@@ -384,8 +386,8 @@ h3 {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 330px;
   gap: 48px;
-  padding-top: 58px;
-  padding-bottom: 70px;
+  padding-top: 42px;
+  padding-bottom: 46px;
   border-top: 1px solid var(--color-line);
 }
 
@@ -451,8 +453,8 @@ h3 {
   grid-template-columns: 1fr auto;
   gap: 28px;
   align-items: center;
-  padding-top: 34px;
-  padding-bottom: 40px;
+  padding-top: 28px;
+  padding-bottom: 30px;
   border-top: 1px solid var(--color-line);
 }
 
@@ -822,6 +824,15 @@ h3 {
     padding-left: 0;
     border-left: 0;
   }
+
+  .hero-brand-panel {
+    justify-items: start;
+  }
+
+  .hero-brand-panel img {
+    width: min(100%, 260px);
+    max-height: 78px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -865,8 +876,8 @@ h3 {
   }
 
   .hero-brand-panel {
-    min-height: 260px;
-    padding: 36px;
+    min-height: auto;
+    padding: 0;
   }
 
   .featured-list a,
@@ -886,7 +897,7 @@ h3 {
   }
 
   .hero-motto {
-    font-size: clamp(31px, 11vw, 40px);
+    font-size: clamp(29px, 8vw, 36px);
   }
 
   .hero-motto span:nth-child(2),
