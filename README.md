@@ -60,10 +60,11 @@ Edit `index.html`.
 
 Main sections:
 
-- Hero: Zhejiang University line, DDRX logo, three-line motto, and key facts
+- Hero: Zhejiang University line, centered DDRX logo, and three-line motto
 - Research: Driving, Drifting, Racing cards
-- Recent work: selected publications
+- Recent work: selected publications displayed as large image-first entries
 - News: short dated updates
+- Facts: founded year, F1TENTH validation, and MPC backbone, shown under News
 
 ### Team
 
@@ -142,6 +143,7 @@ Current categories:
 - Badminton
 
 The hero slideshow uses Team Building images. To change it, edit the image list inside `.life-slideshow`.
+The current slideshow mixes Team Building, Cycling, and Hiking photos. Badminton captions intentionally show dates only.
 
 ### Join Us
 
