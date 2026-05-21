@@ -282,26 +282,12 @@ h3 {
   place-items: center;
   min-height: 420px;
   padding: clamp(42px, 7vw, 86px);
-  border-top: 3px solid var(--color-accent);
-  border-bottom: 1px solid var(--color-line);
-  background: var(--color-soft);
 }
 
 .hero-brand-panel img {
   width: min(100%, 760px);
   max-height: 280px;
   object-fit: contain;
-}
-
-.hero-brand-panel::after {
-  content: "Driving Drifting Racing X";
-  justify-self: end;
-  margin-top: 26px;
-  color: var(--color-muted);
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 
 .lab-intro {
