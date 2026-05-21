@@ -26,6 +26,7 @@ html {
 body {
   margin: 0;
   background: var(--color-paper);
+  overflow-y: scroll;
 }
 
 a {
@@ -282,8 +283,8 @@ h3 {
   grid-template-columns: 0.88fr 1.12fr;
   gap: 48px;
   align-items: center;
-  padding-top: 72px;
-  padding-bottom: 58px;
+  padding-top: 54px;
+  padding-bottom: 28px;
 }
 
 .hero-copy p:not(.eyebrow) {
@@ -295,13 +296,12 @@ h3 {
 .hero-brand-panel {
   display: grid;
   place-items: center;
-  min-height: 420px;
-  padding: clamp(42px, 7vw, 86px);
+  padding: clamp(20px, 4vw, 48px);
 }
 
 .hero-brand-panel img {
   width: min(100%, 760px);
-  max-height: 280px;
+  max-height: 220px;
   object-fit: contain;
 }
 
@@ -309,7 +309,7 @@ h3 {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
   gap: 46px;
-  padding-top: 42px;
+  padding-top: 28px;
   padding-bottom: 44px;
   border-top: 1px solid var(--color-line);
   border-bottom: 1px solid var(--color-line);
