@@ -705,6 +705,38 @@ h3 {
   gap: 38px;
 }
 
+.contact-invitation {
+  max-width: 760px;
+}
+
+.contact-invitation p {
+  color: var(--color-muted);
+  font-size: 18px;
+}
+
+.contact-invitation strong {
+  color: var(--color-accent);
+  font-weight: 800;
+}
+
+.contact-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 24px 0;
+}
+
+.contact-highlights span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 10px;
+  border: 1px solid var(--color-line);
+  color: var(--color-ink);
+  font-size: 13px;
+  font-weight: 700;
+}
+
 .contact-box {
   display: grid;
   gap: 10px;
