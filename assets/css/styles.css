@@ -720,6 +720,38 @@ h3 {
   gap: 44px;
 }
 
+.award-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 44px;
+}
+
+.award-highlights article {
+  display: grid;
+  grid-template-columns: minmax(0, 0.58fr) minmax(180px, 0.42fr);
+  gap: 18px;
+  align-items: center;
+  padding-top: 14px;
+  border-top: 3px solid var(--color-accent);
+}
+
+.award-highlights img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--color-soft);
+}
+
+.award-highlights h2 {
+  margin-bottom: 8px;
+  font-size: clamp(26px, 3.2vw, 36px);
+}
+
+.award-highlights p:not(.eyebrow) {
+  color: var(--color-muted);
+}
+
 .competition-card {
   display: grid;
   grid-template-columns: minmax(0, 0.46fr) minmax(0, 0.54fr);
@@ -890,6 +922,7 @@ h3 {
   .research-overview,
   .research-showcase,
   .profile-grid,
+  .award-highlights,
   .life-grid,
   .system-grid {
     grid-template-columns: 1fr;
@@ -987,6 +1020,10 @@ h3 {
 
   .hero-motto span {
     white-space: normal;
+  }
+
+  .award-highlights article {
+    grid-template-columns: 1fr;
   }
 
   .eyebrow {
