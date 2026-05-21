@@ -538,12 +538,19 @@ h3 {
   gap: 8px;
 }
 
+.profile-title-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  align-items: center;
+}
+
 .profile-head h3 {
+  margin-bottom: 0;
   font-size: 24px;
 }
 
 .profile-links {
-  margin-top: 4px;
   justify-content: flex-start;
 }
 
