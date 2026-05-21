@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Research - DDRX Vehicle Control Group</title>
+    <meta name="description" content="Research areas of DDRX: autonomous driving, drifting, racing, control, planning, and learning.">
+    <meta property="og:title" content="Research - DDRX Vehicle Control Group">
+    <meta property="og:description" content="Research areas of DDRX: autonomous driving, drifting, racing, control, planning, and learning.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://zju-ddrx.github.io/research.html">
+    <meta property="og:image" content="https://zju-ddrx.github.io/assets/images/ddrx-logo-transparent.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="top-rule"></div>
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="DDRX home">
+                    <img class="zju-mark" src="assets/images/zju-logo.png" alt="Zhejiang University">
+<img src="assets/images/ddrx-logo-transparent.png" alt="DDRX">
+          <span>Driving Drifting Racing X</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="team.html">Team</a>
+          <a href="publications.html">Publications</a>
+          <a href="research.html" aria-current="page">Research</a>
+          <a href="competitions.html">Competitions</a>
+          <a href="lab-life.html">Lab Life</a>
+          <a href="join-us.html">Join Us</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page">
+      <section class="page-heading wide">
+        <p class="eyebrow">Research</p>
+        <h1>Research Areas</h1>
+        <p>Control, planning, and learning for autonomous driving, drifting, and racing at the limits of handling.</p>
+      </section>
+
+      <section class="research-showcase">
+        <article>
+          <img class="research-thumb" src="assets/images/papers/parking-flatness.png" alt="Automated parking trajectory planning overview">
+          <h2>Driving</h2>
+          <p>Trajectory planning and control for automated parking, yaw stability, cooperative localization, and distributed vehicle platoons.</p>
+          <ul class="clean-list">
+            <li>Guaranteed collision-free planning</li>
+            <li>Two-layer learning MPC for yaw stability</li>
+            <li>Gaussian-process dynamics for platoon control</li>
+          </ul>
+        </article>
+        <article>
+          <img class="research-thumb" src="assets/images/papers/sparse-gp-drifting.png" alt="Sparse Gaussian-process autonomous drifting framework">
+          <h2>Drifting</h2>
+          <p>Controllers and planners for aggressive cornering, inertia drift, and safety-aware operation near tire-force limits.</p>
+          <ul class="clean-list">
+            <li>Learning-based hierarchical MPC</li>
+            <li>Sparse Gaussian-process control strategies</li>
+            <li>Safety-filtered reinforcement learning</li>
+          </ul>
+        </article>
+        <article>
+          <img class="research-thumb" src="assets/images/papers/fsdp-overtaking.png" alt="Fast and safe data-driven overtaking framework">
+          <h2>Racing</h2>
+          <p>High-performance racing systems with local trajectory planning, velocity prediction, overtaking, and onboard adaptation.</p>
+          <ul class="clean-list">
+            <li>Curvature-integrated MPCC</li>
+            <li>Fast and safe data-driven overtaking</li>
+            <li>F1TENTH competition validation</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="lab-system">
+        <div class="section-heading">
+          <p class="eyebrow">System Stack</p>
+          <h2>An integrated loop from equations to experiments.</h2>
+        </div>
+        <div class="system-grid">
+          <div><strong>Vehicle Dynamics</strong><span>tire forces, residual models, uncertainty</span></div>
+          <div><strong>Trajectory Optimization</strong><span>MPC, MPCC, iLQR, safety filters</span></div>
+          <div><strong>Learning</strong><span>GP dynamics, RL, onboard adaptation</span></div>
+          <div><strong>Real-Time Systems</strong><span>state machines, perception, mapping</span></div>
+          <div><strong>Platforms</strong><span>F1TENTH, scaled vehicles, simulation</span></div>
+          <div><strong>Benchmarks</strong><span>lap time, safety, robustness, transfer</span></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>DDRX</span>
+      <span>College of Control Science and Engineering, Zhejiang University</span>
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

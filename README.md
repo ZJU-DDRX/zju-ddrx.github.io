@@ -19,12 +19,12 @@ https://github.com/ZJU-DDRX
 ```text
 .
 |-- index.html                  # Home
-|-- people.html                 # Team members
+|-- team.html                 # Team members
 |-- publications.html           # Publications page shell
-|-- projects.html               # Research areas
+|-- research.html               # Research areas
 |-- competitions.html           # Competition records
 |-- lab-life.html               # Lab life gallery
-|-- contact.html                # Join Us
+|-- join-us.html                # Join Us
 |-- assets/
 |   |-- css/styles.css          # Global layout and visual system
 |   |-- data/publications.json  # Structured publication records
@@ -68,7 +68,7 @@ Main sections:
 
 ### Team
 
-Edit `people.html`.
+Edit `team.html`.
 
 For each member, update the matching `.profile-card` block:
 
@@ -108,7 +108,7 @@ assets/images/papers/
 
 ### Research
 
-Edit `projects.html`.
+Edit `research.html`.
 
 Use it for stable research directions and system-level descriptions, not for every individual paper.
 
@@ -147,7 +147,7 @@ The current slideshow mixes Team Building, Cycling, and Hiking photos. Badminton
 
 ### Join Us
 
-Edit `contact.html`.
+Edit `join-us.html`.
 
 Common updates:
 
