@@ -142,6 +142,11 @@ h3 {
   object-fit: contain;
 }
 
+.brand .zju-mark {
+  width: 36px;
+  height: 36px;
+}
+
 .brand span {
   max-width: 300px;
   overflow: hidden;
@@ -278,6 +283,7 @@ h3 {
 
 .source-links a,
 .paper-links a,
+.paper-links button,
 .profile-links a,
 .research-showcase a,
 .contact-box a {
@@ -290,6 +296,11 @@ h3 {
   color: var(--color-accent);
   font-size: 13px;
   font-weight: 700;
+}
+
+.paper-links button {
+  cursor: pointer;
+  font-family: inherit;
 }
 
 /* Home */
