@@ -77,12 +77,24 @@ function renderPublications(publications) {
       venue.className = "paper-venue";
       venue.textContent = paper.venue;
 
+      const keywords = document.createElement("div");
+      keywords.className = "paper-keywords";
+      (paper.keywords || []).forEach((keyword) => {
+        const tag = document.createElement("span");
+        tag.textContent = keyword;
+        keywords.appendChild(tag);
+      });
+
       const links = document.createElement("div");
       links.className = "paper-links";
       (paper.links || []).forEach((link) => links.appendChild(createLink(link)));
       links.appendChild(createCitationButton(paper.bibtex || paper.citation));
 
-      body.append(title, authors, venue, links);
+      body.append(title, authors, venue);
+      if ((paper.keywords || []).length) {
+        body.appendChild(keywords);
+      }
+      body.appendChild(links);
       article.append(figure, body);
       section.appendChild(article);
     });

@@ -21,7 +21,13 @@
       }
     ],
     "citation": "Bei Zhou, Zhouheng Li, Lei Xie, Hongye Su, and Johannes Betz. A Learning-Based Planning and Control Framework for Inertia Drift Vehicles. IEEE ITSC, 2025.",
-    "bibtex": "@inproceedings{zhou2025learning,\n  title = {A Learning-Based Planning and Control Framework for Inertia Drift Vehicles},\n  author = {Bei Zhou and Zhouheng Li and Lei Xie and Hongye Su and Johannes Betz},\n  booktitle = {IEEE ITSC},\n  year = {2025},\n  doi = {10.1109/ITSC60802.2025.11423578}\n}"
+    "bibtex": "@inproceedings{zhou2025learning,\n  title = {A Learning-Based Planning and Control Framework for Inertia Drift Vehicles},\n  author = {Bei Zhou and Zhouheng Li and Lei Xie and Hongye Su and Johannes Betz},\n  booktitle = {IEEE ITSC},\n  year = {2025},\n  doi = {10.1109/ITSC60802.2025.11423578}\n}",
+    "keywords": [
+      "drifting",
+      "planning",
+      "MPC",
+      "Gaussian process"
+    ]
   },
   {
     "year": "2025",
@@ -45,7 +51,13 @@
       }
     ],
     "citation": "Nicolas Baumann, Cheng Hu, Paviththiren Sivasothilingam, Haotong Qin, Lei Xie, Michele Magno, and Luca Benini. Enhancing Autonomous Driving Systems with On-Board Deployed Large Language Models. RSS, 2025.",
-    "bibtex": "@inproceedings{baumann2025enhancing,\n  title = {Enhancing Autonomous Driving Systems with On-Board Deployed Large Language Models},\n  author = {Nicolas Baumann and Cheng Hu and Paviththiren Sivasothilingam and Haotong Qin and Lei Xie and Michele Magno and Luca Benini},\n  booktitle = {RSS},\n  year = {2025},\n  doi = {10.15607/RSS.2025.XXI.140}\n}"
+    "bibtex": "@inproceedings{baumann2025enhancing,\n  title = {Enhancing Autonomous Driving Systems with On-Board Deployed Large Language Models},\n  author = {Nicolas Baumann and Cheng Hu and Paviththiren Sivasothilingam and Haotong Qin and Lei Xie and Michele Magno and Luca Benini},\n  booktitle = {RSS},\n  year = {2025},\n  doi = {10.15607/RSS.2025.XXI.140}\n}",
+    "keywords": [
+      "LLM",
+      "on-board AI",
+      "autonomous driving",
+      "robot systems"
+    ]
   },
   {
     "year": "2025",
@@ -65,7 +77,13 @@
       }
     ],
     "citation": "Benedict Hildisch, Edoardo Ghignone, Nicolas Baumann, Cheng Hu, Andrea Carron, and Michele Magno. Drive Fast, Learn Faster: On-Board RL for High Performance Autonomous Racing. RLC, 2025.",
-    "bibtex": "@inproceedings{hildisch2025drive,\n  title = {Drive Fast, Learn Faster: On-Board RL for High Performance Autonomous Racing},\n  author = {Benedict Hildisch and Edoardo Ghignone and Nicolas Baumann and Cheng Hu and Andrea Carron and Michele Magno},\n  booktitle = {RLC},\n  year = {2025},\n  url = {https://rlj.cs.umass.edu/2025/papers/RLJ_RLC_2025_90.pdf}\n}"
+    "bibtex": "@inproceedings{hildisch2025drive,\n  title = {Drive Fast, Learn Faster: On-Board RL for High Performance Autonomous Racing},\n  author = {Benedict Hildisch and Edoardo Ghignone and Nicolas Baumann and Cheng Hu and Andrea Carron and Michele Magno},\n  booktitle = {RLC},\n  year = {2025},\n  url = {https://rlj.cs.umass.edu/2025/papers/RLJ_RLC_2025_90.pdf}\n}",
+    "keywords": [
+      "reinforcement learning",
+      "autonomous racing",
+      "on-board learning",
+      "sim-to-real"
+    ]
   },
   {
     "year": "2025",
@@ -89,7 +107,13 @@
       }
     ],
     "citation": "Bei Zhou, Baha Zarrouki, Mattia Piccinini, Cheng Hu, Lei Xie, and Johannes Betz. Safe Reinforcement Learning with a Predictive Safety Filter for Motion Planning and Control: A Drifting Vehicle Example. IROS, 2025.",
-    "bibtex": "@inproceedings{zhou2025safe,\n  title = {Safe Reinforcement Learning with a Predictive Safety Filter for Motion Planning and Control: A Drifting Vehicle Example},\n  author = {Bei Zhou and Baha Zarrouki and Mattia Piccinini and Cheng Hu and Lei Xie and Johannes Betz},\n  booktitle = {IROS},\n  year = {2025},\n  doi = {10.1109/IROS60139.2025.11246272}\n}"
+    "bibtex": "@inproceedings{zhou2025safe,\n  title = {Safe Reinforcement Learning with a Predictive Safety Filter for Motion Planning and Control: A Drifting Vehicle Example},\n  author = {Bei Zhou and Baha Zarrouki and Mattia Piccinini and Cheng Hu and Lei Xie and Johannes Betz},\n  booktitle = {IROS},\n  year = {2025},\n  doi = {10.1109/IROS60139.2025.11246272}\n}",
+    "keywords": [
+      "safe RL",
+      "predictive safety filter",
+      "drifting",
+      "motion planning"
+    ]
   },
   {
     "year": "2025",
@@ -109,7 +133,13 @@
       }
     ],
     "citation": "Cheng Hu, Jiaheng Huang, Weize Mao, and collaborators. FSDP: Fast and Safe Data-Driven Overtaking Trajectory Planning for Head-to-Head Autonomous Racing Competitions. IROS, 2025.",
-    "bibtex": "@inproceedings{hu2025fsdp,\n  title = {FSDP: Fast and Safe Data-Driven Overtaking Trajectory Planning for Head-to-Head Autonomous Racing Competitions},\n  author = {Cheng Hu and Jiaheng Huang and Weize Mao and others},\n  booktitle = {IROS},\n  year = {2025},\n  url = {https://arxiv.org/abs/2503.06075}\n}"
+    "bibtex": "@inproceedings{hu2025fsdp,\n  title = {FSDP: Fast and Safe Data-Driven Overtaking Trajectory Planning for Head-to-Head Autonomous Racing Competitions},\n  author = {Cheng Hu and Jiaheng Huang and Weize Mao and others},\n  booktitle = {IROS},\n  year = {2025},\n  url = {https://arxiv.org/abs/2503.06075}\n}",
+    "keywords": [
+      "overtaking",
+      "trajectory planning",
+      "autonomous racing",
+      "safety"
+    ]
   },
   {
     "year": "2025",
@@ -133,7 +163,13 @@
       }
     ],
     "citation": "Cheng Hu, Yangyang Xie, Lei Xie, and collaborators. Sparse Gaussian Process-Based Strategies for Two-Layer Model Predictive Control in Autonomous Vehicle Drifting. Transportation Research Part C, 2025.",
-    "bibtex": "@article{hu2025sparse,\n  title = {Sparse Gaussian Process-Based Strategies for Two-Layer Model Predictive Control in Autonomous Vehicle Drifting},\n  author = {Cheng Hu and Yangyang Xie and Lei Xie and others},\n  journal = {Transportation Research Part C},\n  year = {2025},\n  doi = {10.1016/j.trc.2025.105065}\n}"
+    "bibtex": "@article{hu2025sparse,\n  title = {Sparse Gaussian Process-Based Strategies for Two-Layer Model Predictive Control in Autonomous Vehicle Drifting},\n  author = {Cheng Hu and Yangyang Xie and Lei Xie and others},\n  journal = {Transportation Research Part C},\n  year = {2025},\n  doi = {10.1016/j.trc.2025.105065}\n}",
+    "keywords": [
+      "sparse Gaussian process",
+      "two-layer MPC",
+      "drifting",
+      "learning control"
+    ]
   },
   {
     "year": "2025",
@@ -157,7 +193,13 @@
       }
     ],
     "citation": "Bei Zhou, Cheng Hu, Jun Zeng, Zhouheng Li, Johannes Betz, Lei Xie, and Hongye Su. Adaptive Learning-Based Model Predictive Control Strategy for Drift Vehicles. Robotics and Autonomous Systems, 2025.",
-    "bibtex": "@article{zhou2025adaptive,\n  title = {Adaptive Learning-Based Model Predictive Control Strategy for Drift Vehicles},\n  author = {Bei Zhou and Cheng Hu and Jun Zeng and Zhouheng Li and Johannes Betz and Lei Xie and Hongye Su},\n  journal = {Robotics and Autonomous Systems},\n  year = {2025},\n  doi = {10.1016/j.robot.2025.104941}\n}"
+    "bibtex": "@article{zhou2025adaptive,\n  title = {Adaptive Learning-Based Model Predictive Control Strategy for Drift Vehicles},\n  author = {Bei Zhou and Cheng Hu and Jun Zeng and Zhouheng Li and Johannes Betz and Lei Xie and Hongye Su},\n  journal = {Robotics and Autonomous Systems},\n  year = {2025},\n  doi = {10.1016/j.robot.2025.104941}\n}",
+    "keywords": [
+      "adaptive MPC",
+      "learning-based control",
+      "drift vehicles",
+      "vehicle dynamics"
+    ]
   },
   {
     "year": "2025",
@@ -181,7 +223,13 @@
       }
     ],
     "citation": "Guoqiang Wu, Cheng Hu, Wangjia Weng, Zhouheng Li, Yonghao Fu, Lei Xie, and Hongye Su. Learning to Drift in Extreme Turning with Active Exploration and Gaussian Process Based MPC. IEEE IV, 2025.",
-    "bibtex": "@inproceedings{wu2025learning,\n  title = {Learning to Drift in Extreme Turning with Active Exploration and Gaussian Process Based MPC},\n  author = {Guoqiang Wu and Cheng Hu and Wangjia Weng and Zhouheng Li and Yonghao Fu and Lei Xie and Hongye Su},\n  booktitle = {IEEE IV},\n  year = {2025},\n  doi = {10.1109/IV64158.2025.11097693}\n}"
+    "bibtex": "@inproceedings{wu2025learning,\n  title = {Learning to Drift in Extreme Turning with Active Exploration and Gaussian Process Based MPC},\n  author = {Guoqiang Wu and Cheng Hu and Wangjia Weng and Zhouheng Li and Yonghao Fu and Lei Xie and Hongye Su},\n  booktitle = {IEEE IV},\n  year = {2025},\n  doi = {10.1109/IV64158.2025.11097693}\n}",
+    "keywords": [
+      "active exploration",
+      "Gaussian process",
+      "MPC",
+      "extreme turning"
+    ]
   },
   {
     "year": "2025",
@@ -201,7 +249,13 @@
       }
     ],
     "citation": "Zhouheng Li, Bei Zhou, Cheng Hu, Lei Xie, and Hongye Su. A Data-Driven Aggressive Autonomous Racing Framework Utilizing Local Trajectory Planning with Velocity Prediction. ICRA, 2025.",
-    "bibtex": "@inproceedings{li2025data,\n  title = {A Data-Driven Aggressive Autonomous Racing Framework Utilizing Local Trajectory Planning with Velocity Prediction},\n  author = {Zhouheng Li and Bei Zhou and Cheng Hu and Lei Xie and Hongye Su},\n  booktitle = {ICRA},\n  year = {2025},\n  url = {https://arxiv.org/abs/2410.11570}\n}"
+    "bibtex": "@inproceedings{li2025data,\n  title = {A Data-Driven Aggressive Autonomous Racing Framework Utilizing Local Trajectory Planning with Velocity Prediction},\n  author = {Zhouheng Li and Bei Zhou and Cheng Hu and Lei Xie and Hongye Su},\n  booktitle = {ICRA},\n  year = {2025},\n  url = {https://arxiv.org/abs/2410.11570}\n}",
+    "keywords": [
+      "velocity prediction",
+      "MPCC",
+      "local planning",
+      "autonomous racing"
+    ]
   },
   {
     "year": "2025",
@@ -221,7 +275,13 @@
       }
     ],
     "citation": "Edoardo Ghignone, Nicolas Baumann, Cheng Hu, Jonathan Wang, Lei Xie, Andrea Carron, and Michele Magno. A Residual Method for Zero-Shot Real-World Autonomous Racing on Scaled Platforms. ICRA, 2025.",
-    "bibtex": "@inproceedings{ghignone2025residual,\n  title = {A Residual Method for Zero-Shot Real-World Autonomous Racing on Scaled Platforms},\n  author = {Edoardo Ghignone and Nicolas Baumann and Cheng Hu and Jonathan Wang and Lei Xie and Andrea Carron and Michele Magno},\n  booktitle = {ICRA},\n  year = {2025},\n  url = {https://arxiv.org/abs/2501.17311}\n}"
+    "bibtex": "@inproceedings{ghignone2025residual,\n  title = {A Residual Method for Zero-Shot Real-World Autonomous Racing on Scaled Platforms},\n  author = {Edoardo Ghignone and Nicolas Baumann and Cheng Hu and Jonathan Wang and Lei Xie and Andrea Carron and Michele Magno},\n  booktitle = {ICRA},\n  year = {2025},\n  url = {https://arxiv.org/abs/2501.17311}\n}",
+    "keywords": [
+      "residual learning",
+      "zero-shot transfer",
+      "scaled racing",
+      "real-world racing"
+    ]
   },
   {
     "year": "2025",
@@ -241,7 +301,13 @@
       }
     ],
     "citation": "Yangyang Xie, Cheng Hu, Nicolas Baumann, Edoardo Ghignone, Michele Magno, and Lei Xie. GP-Enhanced Autonomous Drifting Framework Using ADMM-Based iLQR. ACC, 2025.",
-    "bibtex": "@inproceedings{xie2025gp,\n  title = {GP-Enhanced Autonomous Drifting Framework Using ADMM-Based iLQR},\n  author = {Yangyang Xie and Cheng Hu and Nicolas Baumann and Edoardo Ghignone and Michele Magno and Lei Xie},\n  booktitle = {ACC},\n  year = {2025},\n  doi = {10.23919/ACC63710.2025.11107668}\n}"
+    "bibtex": "@inproceedings{xie2025gp,\n  title = {GP-Enhanced Autonomous Drifting Framework Using ADMM-Based iLQR},\n  author = {Yangyang Xie and Cheng Hu and Nicolas Baumann and Edoardo Ghignone and Michele Magno and Lei Xie},\n  booktitle = {ACC},\n  year = {2025},\n  doi = {10.23919/ACC63710.2025.11107668}\n}",
+    "keywords": [
+      "Gaussian process",
+      "ADMM",
+      "iLQR",
+      "autonomous drifting"
+    ]
   },
   {
     "year": "2024",
@@ -261,7 +327,13 @@
       }
     ],
     "citation": "Zhouheng Li, Lei Xie, Cheng Hu, and Hongye Su. Reduce Lap Time for Autonomous Racing with Curvature-Integrated MPCC Local Trajectory Planning Method. IEEE ITSC, 2024.",
-    "bibtex": "@inproceedings{li2024reduce,\n  title = {Reduce Lap Time for Autonomous Racing with Curvature-Integrated MPCC Local Trajectory Planning Method},\n  author = {Zhouheng Li and Lei Xie and Cheng Hu and Hongye Su},\n  booktitle = {IEEE ITSC},\n  year = {2024},\n  url = {https://arxiv.org/abs/2502.03695}\n}"
+    "bibtex": "@inproceedings{li2024reduce,\n  title = {Reduce Lap Time for Autonomous Racing with Curvature-Integrated MPCC Local Trajectory Planning Method},\n  author = {Zhouheng Li and Lei Xie and Cheng Hu and Hongye Su},\n  booktitle = {IEEE ITSC},\n  year = {2024},\n  url = {https://arxiv.org/abs/2502.03695}\n}",
+    "keywords": [
+      "curvature-integrated MPCC",
+      "lap time",
+      "trajectory planning",
+      "autonomous racing"
+    ]
   },
   {
     "year": "2024",
@@ -281,7 +353,13 @@
       }
     ],
     "citation": "Zhouheng Li, Lei Xie, Cheng Hu, and Hongye Su. A Rapid Iterative Trajectory Planning Method for Automated Parking Through Differential Flatness. Robotics and Autonomous Systems, 2024.",
-    "bibtex": "@article{li2024rapid,\n  title = {A Rapid Iterative Trajectory Planning Method for Automated Parking Through Differential Flatness},\n  author = {Zhouheng Li and Lei Xie and Cheng Hu and Hongye Su},\n  journal = {Robotics and Autonomous Systems},\n  year = {2024},\n  doi = {10.1016/j.robot.2024.104816}\n}"
+    "bibtex": "@article{li2024rapid,\n  title = {A Rapid Iterative Trajectory Planning Method for Automated Parking Through Differential Flatness},\n  author = {Zhouheng Li and Lei Xie and Cheng Hu and Hongye Su},\n  journal = {Robotics and Autonomous Systems},\n  year = {2024},\n  doi = {10.1016/j.robot.2024.104816}\n}",
+    "keywords": [
+      "automated parking",
+      "differential flatness",
+      "trajectory planning",
+      "optimization"
+    ]
   },
   {
     "year": "2024",
@@ -301,7 +379,13 @@
       }
     ],
     "citation": "Cheng Hu, Lei Xie, Zhiming Zhang, and Haokun Xiong. A Novel Model Predictive Controller for the Drifting Vehicle to Track a Circular Trajectory. Vehicle System Dynamics, 2024.",
-    "bibtex": "@article{hu2024novel,\n  title = {A Novel Model Predictive Controller for the Drifting Vehicle to Track a Circular Trajectory},\n  author = {Cheng Hu and Lei Xie and Zhiming Zhang and Haokun Xiong},\n  journal = {Vehicle System Dynamics},\n  year = {2024},\n  doi = {10.1080/00423114.2024.2347494}\n}"
+    "bibtex": "@article{hu2024novel,\n  title = {A Novel Model Predictive Controller for the Drifting Vehicle to Track a Circular Trajectory},\n  author = {Cheng Hu and Lei Xie and Zhiming Zhang and Haokun Xiong},\n  journal = {Vehicle System Dynamics},\n  year = {2024},\n  doi = {10.1080/00423114.2024.2347494}\n}",
+    "keywords": [
+      "model predictive control",
+      "circular trajectory",
+      "drifting",
+      "vehicle control"
+    ]
   },
   {
     "year": "2024",
@@ -317,7 +401,13 @@
       }
     ],
     "citation": "Bei Zhou, Hongyu Cheng, Yanjun Shi, and collaborators. Learning-Based Hierarchical Model Predictive Control for Drift Vehicles. ACC, 2024.",
-    "bibtex": "@inproceedings{zhou2024learning,\n  title = {Learning-Based Hierarchical Model Predictive Control for Drift Vehicles},\n  author = {Bei Zhou and Hongyu Cheng and Yanjun Shi and others},\n  booktitle = {ACC},\n  year = {2024},\n  url = {https://ieeexplore.ieee.org/document/10644291}\n}"
+    "bibtex": "@inproceedings{zhou2024learning,\n  title = {Learning-Based Hierarchical Model Predictive Control for Drift Vehicles},\n  author = {Bei Zhou and Hongyu Cheng and Yanjun Shi and others},\n  booktitle = {ACC},\n  year = {2024},\n  url = {https://ieeexplore.ieee.org/document/10644291}\n}",
+    "keywords": [
+      "hierarchical MPC",
+      "learning-based control",
+      "drift vehicles",
+      "vehicle dynamics"
+    ]
   },
   {
     "year": "2024",
@@ -337,7 +427,13 @@
       }
     ],
     "citation": "Xiaorong Hu, Yao Shi, Lei Xie, and Hongye Su. Distributed Non-Linear Model Predictive Control with Gaussian Process Dynamics for Two-Dimensional Motion of Vehicle Platoon. IET Intelligent Transport Systems, 2024.",
-    "bibtex": "@article{hu2024distributed,\n  title = {Distributed Non-Linear Model Predictive Control with Gaussian Process Dynamics for Two-Dimensional Motion of Vehicle Platoon},\n  author = {Xiaorong Hu and Yao Shi and Lei Xie and Hongye Su},\n  journal = {IET Intelligent Transport Systems},\n  year = {2024},\n  doi = {10.1049/itr2.12418}\n}"
+    "bibtex": "@article{hu2024distributed,\n  title = {Distributed Non-Linear Model Predictive Control with Gaussian Process Dynamics for Two-Dimensional Motion of Vehicle Platoon},\n  author = {Xiaorong Hu and Yao Shi and Lei Xie and Hongye Su},\n  journal = {IET Intelligent Transport Systems},\n  year = {2024},\n  doi = {10.1049/itr2.12418}\n}",
+    "keywords": [
+      "distributed NMPC",
+      "Gaussian process",
+      "vehicle platoon",
+      "cooperative control"
+    ]
   },
   {
     "year": "Selected Earlier Work",
@@ -357,7 +453,13 @@
       }
     ],
     "citation": "Zhiming Zhang, Lei Xie, Shan Lu, Xialai Wu, and Hongye Su. Vehicle Yaw Stability Control with a Two-Layered Learning MPC. Vehicle System Dynamics, 2023.",
-    "bibtex": "@article{zhang2023vehicle,\n  title = {Vehicle Yaw Stability Control with a Two-Layered Learning MPC},\n  author = {Zhiming Zhang and Lei Xie and Shan Lu and Xialai Wu and Hongye Su},\n  journal = {Vehicle System Dynamics},\n  year = {2023},\n  doi = {10.1080/00423114.2022.2052328}\n}"
+    "bibtex": "@article{zhang2023vehicle,\n  title = {Vehicle Yaw Stability Control with a Two-Layered Learning MPC},\n  author = {Zhiming Zhang and Lei Xie and Shan Lu and Xialai Wu and Hongye Su},\n  journal = {Vehicle System Dynamics},\n  year = {2023},\n  doi = {10.1080/00423114.2022.2052328}\n}",
+    "keywords": [
+      "yaw stability",
+      "two-layer MPC",
+      "learning control",
+      "vehicle dynamics"
+    ]
   },
   {
     "year": "Selected Earlier Work",
@@ -377,6 +479,12 @@
       }
     ],
     "citation": "Cheng Hu, Xianjian Zhou, Rongrong Duo, and collaborators. Combined Fast Control of Drifting State and Trajectory Tracking for Autonomous Vehicles Based on MPC Controller. ICRA, 2022.",
-    "bibtex": "@inproceedings{hu2022combined,\n  title = {Combined Fast Control of Drifting State and Trajectory Tracking for Autonomous Vehicles Based on MPC Controller},\n  author = {Cheng Hu and Xianjian Zhou and Rongrong Duo and others},\n  booktitle = {ICRA},\n  year = {2022},\n  doi = {10.1109/ICRA46639.2022.9812185}\n}"
+    "bibtex": "@inproceedings{hu2022combined,\n  title = {Combined Fast Control of Drifting State and Trajectory Tracking for Autonomous Vehicles Based on MPC Controller},\n  author = {Cheng Hu and Xianjian Zhou and Rongrong Duo and others},\n  booktitle = {ICRA},\n  year = {2022},\n  doi = {10.1109/ICRA46639.2022.9812185}\n}",
+    "keywords": [
+      "drift control",
+      "trajectory tracking",
+      "MPC",
+      "autonomous vehicles"
+    ]
   }
 ]
