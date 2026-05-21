@@ -68,7 +68,7 @@ h1 {
 .hero-motto {
   margin-bottom: 0;
   font-size: clamp(30px, 3.7vw, 46px);
-  line-height: 1.08;
+  line-height: 1.18;
 }
 
 .hero-motto span {
@@ -324,8 +324,8 @@ h3 {
 
 .hero-logo {
   justify-self: center;
-  width: min(470px, 78%);
-  margin: 8px 0 20px;
+  width: min(560px, 86%);
+  margin: 10px 0 24px;
   object-fit: contain;
 }
 
@@ -429,9 +429,7 @@ h3 {
 .featured-list img {
   width: 100%;
   height: auto;
-  aspect-ratio: 16 / 9;
   object-fit: contain;
-  background: var(--color-soft);
 }
 
 .featured-list time,
@@ -471,9 +469,9 @@ h3 {
 }
 
 .news-facts {
-  margin-top: 32px;
-  padding-top: 24px;
-  border-top: 1px solid var(--color-line);
+  margin-bottom: 34px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--color-line);
 }
 
 .source-band {
@@ -1048,7 +1046,7 @@ h3 {
   }
 
   .hero-logo {
-    width: min(360px, 86%);
+    width: min(420px, 90%);
   }
 }
 
