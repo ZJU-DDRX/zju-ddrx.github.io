@@ -7,6 +7,7 @@
   --color-accent: #8c1515;
   --color-accent-dark: #5f0f0f;
   --layout-max: 1120px;
+  --content-max: 980px;
   --space-page-x: 24px;
 }
 
@@ -201,7 +202,7 @@ h3 {
 }
 
 .home-page {
-  max-width: var(--layout-max);
+  max-width: var(--content-max);
   margin: 0 auto;
   padding-right: var(--space-page-x);
   padding-left: var(--space-page-x);
@@ -295,8 +296,8 @@ h3 {
 /* Home */
 .lab-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(220px, 300px);
-  gap: 32px;
+  grid-template-columns: minmax(0, 1fr) minmax(190px, 260px);
+  gap: 28px;
   align-items: center;
   min-height: 0;
   padding-bottom: 24px;
@@ -316,15 +317,15 @@ h3 {
 }
 
 .hero-brand-panel img {
-  width: min(100%, 280px);
-  max-height: 84px;
+  width: min(100%, 240px);
+  max-height: 72px;
   object-fit: contain;
 }
 
 .lab-intro {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
-  gap: 46px;
+  gap: 34px;
   padding-top: 24px;
   padding-bottom: 32px;
   border-bottom: 1px solid var(--color-line);
@@ -358,7 +359,7 @@ h3 {
 .research-overview {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 24px;
+  gap: 20px;
   padding-top: 38px;
   padding-bottom: 42px;
 }
@@ -375,7 +376,7 @@ h3 {
 .research-overview img,
 .research-thumb {
   width: 100%;
-  height: 160px;
+  height: 138px;
   object-fit: cover;
   margin-bottom: 20px;
   border-bottom: 1px solid var(--color-line);
@@ -384,8 +385,8 @@ h3 {
 
 .front-columns {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 330px;
-  gap: 48px;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 34px;
   padding-top: 42px;
   padding-bottom: 46px;
   border-top: 1px solid var(--color-line);
@@ -398,8 +399,8 @@ h3 {
 
 .featured-list a {
   display: grid;
-  grid-template-columns: 210px minmax(0, 1fr);
-  gap: 20px;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 18px;
   align-items: center;
   padding-bottom: 18px;
   border-bottom: 1px solid var(--color-line);
@@ -407,7 +408,7 @@ h3 {
 
 .featured-list img {
   width: 100%;
-  height: 118px;
+  height: 102px;
   object-fit: cover;
   background: var(--color-soft);
 }
@@ -830,8 +831,8 @@ h3 {
   }
 
   .hero-brand-panel img {
-    width: min(100%, 260px);
-    max-height: 78px;
+    width: min(100%, 220px);
+    max-height: 66px;
   }
 }
 
