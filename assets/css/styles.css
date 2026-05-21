@@ -151,13 +151,13 @@ h3 {
 
 .site-nav {
   display: flex;
-  gap: 18px;
+  gap: 16px;
   align-items: center;
 }
 
 .site-nav a {
   color: var(--color-ink);
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.02em;
 }
@@ -715,6 +715,78 @@ h3 {
   margin-top: 12px;
 }
 
+.competition-list {
+  display: grid;
+  gap: 44px;
+}
+
+.competition-card {
+  display: grid;
+  grid-template-columns: minmax(0, 0.46fr) minmax(0, 0.54fr);
+  gap: 34px;
+  padding-top: 24px;
+  border-top: 3px solid var(--color-accent);
+}
+
+.competition-copy p {
+  color: var(--color-muted);
+  font-size: 17px;
+}
+
+.event-facts {
+  display: grid;
+  gap: 0;
+  margin: 20px 0;
+}
+
+.event-facts div {
+  display: grid;
+  grid-template-columns: 110px minmax(0, 1fr);
+  gap: 18px;
+  padding: 10px 0;
+  border-top: 1px solid var(--color-line);
+}
+
+.event-facts dt {
+  color: var(--color-ink);
+  font-weight: 800;
+}
+
+.event-facts dd {
+  margin: 0;
+  color: var(--color-muted);
+}
+
+.competition-media video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--color-soft);
+}
+
+.media-caption {
+  margin-top: 8px;
+  color: var(--color-muted);
+  font-size: 13px;
+}
+
+.life-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.life-grid article {
+  min-height: 220px;
+  padding: 20px;
+  border: 1px solid var(--color-line);
+  border-top: 3px solid var(--color-accent);
+  background: var(--color-paper);
+}
+
+.life-grid p:not(.eyebrow) {
+  color: var(--color-muted);
+}
+
 /* Contact and Footer */
 .activity-feature {
   display: grid;
@@ -809,6 +881,7 @@ h3 {
   .lab-intro,
   .front-columns,
   .source-band,
+  .competition-card,
   .activity-feature,
   .contact-layout {
     grid-template-columns: 1fr;
@@ -817,6 +890,7 @@ h3 {
   .research-overview,
   .research-showcase,
   .profile-grid,
+  .life-grid,
   .system-grid {
     grid-template-columns: 1fr;
   }
