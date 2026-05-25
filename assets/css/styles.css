@@ -8,6 +8,7 @@
   --color-accent-dark: #5f0f0f;
   --layout-max: 1120px;
   --space-page-x: 24px;
+  --profile-photo-height: 220px;
 }
 
 /* Base */
@@ -671,7 +672,7 @@ h3 {
 .profile-photo {
   width: auto;
   max-width: 100%;
-  height: 220px;
+  height: var(--profile-photo-height);
   object-fit: contain;
   align-self: center;
 }
