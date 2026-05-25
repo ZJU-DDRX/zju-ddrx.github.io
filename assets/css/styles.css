@@ -669,12 +669,19 @@ h3 {
   display: none;
 }
 
+.profile-photo-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: var(--profile-photo-height);
+}
+
 .profile-photo {
   width: auto;
   max-width: 100%;
-  height: var(--profile-photo-height);
+  max-height: 100%;
   object-fit: contain;
-  align-self: center;
 }
 
 .profile-head {
