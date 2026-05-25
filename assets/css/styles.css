@@ -665,23 +665,15 @@ h3 {
 }
 
 .profile-mark {
-  display: grid;
-  place-items: center;
-  width: 100%;
-  min-height: 40px;
-  border: 0;
-  background: transparent;
-  color: var(--color-accent);
-  font-size: 24px;
-  font-weight: 800;
-  justify-content: start;
+  display: none;
 }
 
 .profile-photo {
   width: 100%;
-  height: auto;
-  max-height: 220px;
-  object-fit: contain;
+  height: 220px;
+  object-fit: cover;
+  object-position: center top;
+  background: var(--color-soft);
 }
 
 .profile-head {
