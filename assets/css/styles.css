@@ -1076,6 +1076,7 @@ h3 {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 340px;
   gap: 38px;
+  align-items: start;
 }
 
 .contact-invitation {
@@ -1103,6 +1104,16 @@ h3 {
   gap: 10px;
   align-content: start;
   padding: 20px 0;
+}
+
+.contact-sidebar {
+  display: grid;
+  gap: 28px;
+}
+
+.contact-sidebar .contact-box + .contact-box {
+  padding-top: 28px;
+  border-top: 1px solid var(--color-line);
 }
 
 .site-footer {
