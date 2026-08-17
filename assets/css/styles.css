@@ -337,6 +337,16 @@ h3 {
   text-align: center;
 }
 
+.team-header-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 48px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: var(--color-soft);
+}
+
 .home-research-heading {
   padding-top: 28px;
   padding-bottom: 0;
