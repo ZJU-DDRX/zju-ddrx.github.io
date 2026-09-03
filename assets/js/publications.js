@@ -73,10 +73,6 @@ function renderPublications(publications) {
       authors.className = "paper-authors";
       authors.textContent = paper.authors;
 
-      const venue = document.createElement("p");
-      venue.className = "paper-venue";
-      venue.textContent = paper.venue;
-
       const keywords = document.createElement("div");
       keywords.className = "paper-keywords";
       (paper.keywords || []).forEach((keyword) => {
@@ -90,7 +86,13 @@ function renderPublications(publications) {
       (paper.links || []).forEach((link) => links.appendChild(createLink(link)));
       links.appendChild(createCitationButton(paper.bibtex || paper.citation));
 
-      body.append(title, authors, venue);
+      body.append(title, authors);
+      if (paper.venue) {
+        const venue = document.createElement("p");
+        venue.className = "paper-venue";
+        venue.textContent = paper.venue;
+        body.appendChild(venue);
+      }
       if ((paper.keywords || []).length) {
         body.appendChild(keywords);
       }

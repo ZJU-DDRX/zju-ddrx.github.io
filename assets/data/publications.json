@@ -29,7 +29,6 @@
     "year": "2026",
     "title": "Toward the Cognitive--Physical Limits of Embodied Intelligence through a World-Model-Centric Autonomous Racing Agent",
     "authors": "Zitong Shan, Baichuan Lou, Yanxin Zhou, Shuge Wu, Xianqi He, Bolin Zhao, Sheng Zhao, Zhouheng Li, Chee Kiong Ong, King Ho Holden Li, Chen Lv",
-    "venue": "arXiv, 2026",
     "image": "assets/images/papers/world-model-autonomous-racing.png",
     "alt": "World-model-centric autonomous racing agent overview",
     "links": [
@@ -51,10 +50,9 @@
     "year": "2026",
     "title": "SGTP: Sampling-based Game-Theoretic Planning for Real-Time Multi-Vehicle Autonomous Racing",
     "authors": "Zhouheng Li, Fangguo Zhao, Mattia Piccinini, Baha Zarrouki, Yuan Gao, Zitong Shan, Johannes Betz, Chen Lv, Lei Xie",
-    "venue": "arXiv, 2026",
     "image": "assets/images/papers/sgtp-racing.png",
     "alt": "Sampling-based game-theoretic planning for multi-vehicle autonomous racing",
-    "titleUrl": "https://arxiv.org/abs/2607.25388",
+    "titleUrl": "https://sgtp-racing.github.io/",
     "links": [
       {
         "label": "Project",
