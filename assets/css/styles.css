@@ -1265,6 +1265,27 @@ h3 {
   font-size: 14px;
 }
 
+.site-footer--with-counter {
+  flex-wrap: wrap;
+}
+
+.visitor-country-counter {
+  flex: 0 0 100%;
+  padding-top: 18px;
+  border-top: 1px solid var(--color-line);
+  text-align: center;
+}
+
+.visitor-country-counter a {
+  display: inline-block;
+}
+
+.visitor-country-counter img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .lab-hero,
