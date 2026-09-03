@@ -679,6 +679,10 @@ h3 {
   border-bottom: 1px solid var(--color-line);
 }
 
+.publication-year h2 {
+  border-bottom: 3px solid var(--color-accent);
+}
+
 .people-subsection + .people-subsection {
   margin-top: 32px;
 }
@@ -761,11 +765,7 @@ h3 {
   gap: 26px;
   margin-bottom: 18px;
   padding: 18px 0 20px;
-  border-top: 1px solid var(--color-line);
-}
-
-.publication:first-of-type {
-  border-top: 3px solid var(--color-accent);
+  border-top: 0;
 }
 
 .paper-figure,
