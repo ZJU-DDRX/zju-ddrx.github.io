@@ -1,5 +1,173 @@
 [
   {
+    "year": "2026",
+    "title": "Compositional Diffusion Models for Autonomous Drone Racing",
+    "authors": "Fangguo Zhao*, Zhouheng Li*, Yunhao Luo, Hanbing Zhang, Xin Guan, Lei Xie, Shuo Li",
+    "venue": "RSS 2026 Workshop on Diffusion for Robot Learning",
+    "image": "assets/images/papers/onboard-rl-racing-selected.png",
+    "alt": "Learning-based autonomous racing system overview",
+    "links": [
+      {
+        "label": "RSS 2026 Workshop",
+        "url": "https://rss2026-diffusion-robot-learning.github.io/"
+      },
+      {
+        "label": "Author page",
+        "url": "https://zhaofangguo.github.io/homepage/publications.html"
+      }
+    ],
+    "citation": "Fangguo Zhao, Zhouheng Li, Yunhao Luo, Hanbing Zhang, Xin Guan, Lei Xie, and Shuo Li. Compositional Diffusion Models for Autonomous Drone Racing. RSS 2026 Workshop on Diffusion for Robot Learning, 2026.",
+    "bibtex": "@inproceedings{zhao2026compositional,\n  title = {Compositional Diffusion Models for Autonomous Drone Racing},\n  author = {Fangguo Zhao and Zhouheng Li and Yunhao Luo and Hanbing Zhang and Xin Guan and Lei Xie and Shuo Li},\n  booktitle = {RSS 2026 Workshop on Diffusion for Robot Learning},\n  year = {2026}\n}",
+    "keywords": [
+      "diffusion models",
+      "drone racing",
+      "robot learning",
+      "compositional planning"
+    ]
+  },
+  {
+    "year": "2026",
+    "title": "Toward the Cognitive--Physical Limits of Embodied Intelligence through a World-Model-Centric Autonomous Racing Agent",
+    "authors": "Zitong Shan, Baichuan Lou, Yanxin Zhou, Shuge Wu, Xianqi He, Bolin Zhao, Sheng Zhao, Zhouheng Li, Chee Kiong Ong, King Ho Holden Li, Chen Lv",
+    "venue": "arXiv preprint arXiv:2608.10618",
+    "image": "assets/images/papers/onboard-llm-selected.png",
+    "alt": "World-model-centric autonomous racing agent overview",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.10618"
+      }
+    ],
+    "citation": "Zitong Shan, Baichuan Lou, Yanxin Zhou, Shuge Wu, Xianqi He, Bolin Zhao, Sheng Zhao, Zhouheng Li, Chee Kiong Ong, King Ho Holden Li, and Chen Lv. Toward the Cognitive--Physical Limits of Embodied Intelligence through a World-Model-Centric Autonomous Racing Agent. arXiv preprint arXiv:2608.10618, 2026.",
+    "bibtex": "@misc{shan2026cognitivephysical,\n  title = {Toward the Cognitive--Physical Limits of Embodied Intelligence through a World-Model-Centric Autonomous Racing Agent},\n  author = {Zitong Shan and Baichuan Lou and Yanxin Zhou and Shuge Wu and Xianqi He and Bolin Zhao and Sheng Zhao and Zhouheng Li and Chee Kiong Ong and King Ho Holden Li and Chen Lv},\n  year = {2026},\n  eprint = {2608.10618},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.RO},\n  url = {https://arxiv.org/abs/2608.10618}\n}",
+    "keywords": [
+      "world models",
+      "embodied intelligence",
+      "autonomous racing",
+      "vehicle dynamics"
+    ]
+  },
+  {
+    "year": "2026",
+    "title": "SGTP: Sampling-based Game-Theoretic Planning for Real-Time Multi-Vehicle Autonomous Racing",
+    "authors": "Zhouheng Li, Fangguo Zhao, Mattia Piccinini, Baha Zarrouki, Yuan Gao, Zitong Shan, Johannes Betz, Chen Lv, Lei Xie",
+    "venue": "arXiv preprint arXiv:2607.25388",
+    "image": "assets/images/papers/sgtp-racing.png",
+    "alt": "Sampling-based game-theoretic planning for multi-vehicle autonomous racing",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2607.25388"
+      },
+      {
+        "label": "Project",
+        "url": "https://sgtp-racing.github.io/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/zhouhengli/SGTP-Racer"
+      }
+    ],
+    "citation": "Zhouheng Li, Fangguo Zhao, Mattia Piccinini, Baha Zarrouki, Yuan Gao, Zitong Shan, Johannes Betz, Chen Lv, and Lei Xie. SGTP: Sampling-based Game-Theoretic Planning for Real-Time Multi-Vehicle Autonomous Racing. arXiv preprint arXiv:2607.25388, 2026.",
+    "bibtex": "@misc{li2026sgtp,\n  title = {SGTP: Sampling-based Game-Theoretic Planning for Real-Time Multi-Vehicle Autonomous Racing},\n  author = {Zhouheng Li and Fangguo Zhao and Mattia Piccinini and Baha Zarrouki and Yuan Gao and Zitong Shan and Johannes Betz and Chen Lv and Lei Xie},\n  year = {2026},\n  eprint = {2607.25388},\n  archivePrefix = {arXiv},\n  url = {https://arxiv.org/abs/2607.25388}\n}",
+    "keywords": [
+      "game-theoretic planning",
+      "multi-vehicle racing",
+      "sampling-based planning",
+      "collision avoidance"
+    ]
+  },
+  {
+    "year": "2026",
+    "title": "Vision-Guided MPPI for Agile Drone Racing: Navigating Arbitrary Gate Poses via Neural Signed Distance Fields",
+    "authors": "Fangguo Zhao, Hanbing Zhang, Zhouheng Li, Xin Guan, Shuo Li",
+    "venue": "IROS, 2026",
+    "image": "assets/images/papers/onboard-rl-racing-selected.png",
+    "alt": "Vision-guided MPPI for agile drone racing overview",
+    "links": [
+      {
+        "label": "Project",
+        "url": "https://zhaofangguo.github.io/vision_guided_mppi/"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.07199"
+      }
+    ],
+    "citation": "Fangguo Zhao, Hanbing Zhang, Zhouheng Li, Xin Guan, and Shuo Li. Vision-Guided MPPI for Agile Drone Racing: Navigating Arbitrary Gate Poses via Neural Signed Distance Fields. IROS, 2026.",
+    "bibtex": "@misc{zhao2026visionguidedmppi,\n  title = {Vision-Guided MPPI for Agile Drone Racing: Navigating Arbitrary Gate Poses via Neural Signed Distance Fields},\n  author = {Fangguo Zhao and Hanbing Zhang and Zhouheng Li and Xin Guan and Shuo Li},\n  year = {2026},\n  eprint = {2603.07199},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.RO},\n  url = {https://arxiv.org/abs/2603.07199}\n}",
+    "keywords": [
+      "drone racing",
+      "MPPI",
+      "neural signed distance fields",
+      "vision-guided control"
+    ]
+  },
+  {
+    "year": "2026",
+    "title": "EVO-MPCC: Enhanced Velocity Optimization with Learning-Based Auto-Tuning for Real-Time Vehicle Trajectory Planning",
+    "authors": "Zhouheng Li, Bei Zhou, Mattia Piccinini, Cheng Hu, Baha Zarrouki, Rahul Mangharam, Lei Xie",
+    "venue": "Available at SSRN 6127037",
+    "image": "assets/images/papers/cimpcc-racing-selected.png",
+    "alt": "Enhanced velocity optimization model predictive contouring control overview",
+    "links": [
+      {
+        "label": "SSRN",
+        "url": "https://ssrn.com/abstract=6127037"
+      },
+      {
+        "label": "Project",
+        "url": "https://evo-mpcc.github.io/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/zhouhengli/EVO-MPCC"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.2139/ssrn.6127037"
+      }
+    ],
+    "citation": "Zhouheng Li, Bei Zhou, Mattia Piccinini, Cheng Hu, Baha Zarrouki, Rahul Mangharam, and Lei Xie. EVO-MPCC: Enhanced Velocity Optimization with Learning-Based Auto-Tuning for Real-Time Vehicle Trajectory Planning. Available at SSRN 6127037, 2026.",
+    "bibtex": "@article{li2026evompcc,\n  title = {EVO-MPCC: Enhanced Velocity Optimization with Learning-Based Auto-Tuning for Real-Time Vehicle Trajectory Planning},\n  author = {Zhouheng Li and Bei Zhou and Mattia Piccinini and Cheng Hu and Baha Zarrouki and Rahul Mangharam and Lei Xie},\n  journal = {Available at SSRN 6127037},\n  year = {2026},\n  doi = {10.2139/ssrn.6127037},\n  url = {https://ssrn.com/abstract=6127037}\n}",
+    "keywords": [
+      "MPCC",
+      "velocity optimization",
+      "Bayesian optimization",
+      "autonomous racing"
+    ]
+  },
+  {
+    "year": "2026",
+    "title": "An Overtaking Trajectory Planning Framework Based on Spatio-Temporal Topology and Reachable Set Analysis Ensuring Time Efficiency",
+    "authors": "Wule Mao, Zhouheng Li, Entao Sun, Lei Xie, Hongye Su",
+    "venue": "IET Intelligent Transport Systems, 20 (1), e70260, 2026",
+    "image": "assets/images/papers/fsdp-overtaking.png",
+    "alt": "Spatio-temporal topology and reachable-set overtaking trajectory planning overview",
+    "links": [
+      {
+        "label": "IET Intelligent Transport Systems",
+        "url": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/itr2.70260"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1049/itr2.70260"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2410.22643"
+      }
+    ],
+    "citation": "Wule Mao, Zhouheng Li, Entao Sun, Lei Xie, and Hongye Su. An Overtaking Trajectory Planning Framework Based on Spatio-Temporal Topology and Reachable Set Analysis Ensuring Time Efficiency. IET Intelligent Transport Systems, 20(1), e70260, 2026.",
+    "bibtex": "@article{mao2026overtaking,\n  title = {An Overtaking Trajectory Planning Framework Based on Spatio-Temporal Topology and Reachable Set Analysis Ensuring Time Efficiency},\n  author = {Wule Mao and Zhouheng Li and Entao Sun and Lei Xie and Hongye Su},\n  journal = {IET Intelligent Transport Systems},\n  volume = {20},\n  number = {1},\n  pages = {e70260},\n  year = {2026},\n  doi = {10.1049/itr2.70260}\n}",
+    "keywords": [
+      "overtaking",
+      "trajectory planning",
+      "reachable set",
+      "spatio-temporal topology"
+    ]
+  },
+  {
     "year": "2025",
     "title": "A Learning-Based Planning and Control Framework for Inertia Drift Vehicles",
     "authors": "Bei Zhou, Zhouheng Li, Lei Xie, Hongye Su, Johannes Betz",
