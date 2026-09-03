@@ -63,7 +63,7 @@ function renderPublications(publications) {
       const title = document.createElement("p");
       title.className = "paper-title";
       const titleLink = document.createElement("a");
-      titleLink.href = paper.links?.[0]?.url || "#";
+      titleLink.href = paper.titleUrl || paper.links?.[0]?.url || "#";
       titleLink.target = "_blank";
       titleLink.rel = "noreferrer";
       titleLink.textContent = paper.title;

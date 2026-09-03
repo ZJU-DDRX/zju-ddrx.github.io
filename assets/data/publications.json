@@ -4,16 +4,16 @@
     "title": "Compositional Diffusion Models for Autonomous Drone Racing",
     "authors": "Fangguo Zhao*, Zhouheng Li*, Yunhao Luo, Hanbing Zhang, Xin Guan, Lei Xie, Shuo Li",
     "venue": "RSS 2026 Workshop on Diffusion for Robot Learning",
-    "image": "assets/images/papers/onboard-rl-racing-selected.png",
+    "image": "assets/images/papers/compositional-diffusion-drone-racing.png",
     "alt": "Learning-based autonomous racing system overview",
     "links": [
       {
-        "label": "RSS 2026 Workshop",
-        "url": "https://rss2026-diffusion-robot-learning.github.io/"
+        "label": "OpenReview",
+        "url": "https://openreview.net/forum?id=m5bMCm4Ad6"
       },
       {
-        "label": "Author page",
-        "url": "https://zhaofangguo.github.io/homepage/publications.html"
+        "label": "RSS 2026 Workshop",
+        "url": "https://rss2026-diffusion-robot-learning.github.io/"
       }
     ],
     "citation": "Fangguo Zhao, Zhouheng Li, Yunhao Luo, Hanbing Zhang, Xin Guan, Lei Xie, and Shuo Li. Compositional Diffusion Models for Autonomous Drone Racing. RSS 2026 Workshop on Diffusion for Robot Learning, 2026.",
@@ -29,8 +29,8 @@
     "year": "2026",
     "title": "Toward the Cognitive--Physical Limits of Embodied Intelligence through a World-Model-Centric Autonomous Racing Agent",
     "authors": "Zitong Shan, Baichuan Lou, Yanxin Zhou, Shuge Wu, Xianqi He, Bolin Zhao, Sheng Zhao, Zhouheng Li, Chee Kiong Ong, King Ho Holden Li, Chen Lv",
-    "venue": "arXiv preprint arXiv:2608.10618",
-    "image": "assets/images/papers/onboard-llm-selected.png",
+    "venue": "arXiv, 2026",
+    "image": "assets/images/papers/world-model-autonomous-racing.png",
     "alt": "World-model-centric autonomous racing agent overview",
     "links": [
       {
@@ -51,17 +51,18 @@
     "year": "2026",
     "title": "SGTP: Sampling-based Game-Theoretic Planning for Real-Time Multi-Vehicle Autonomous Racing",
     "authors": "Zhouheng Li, Fangguo Zhao, Mattia Piccinini, Baha Zarrouki, Yuan Gao, Zitong Shan, Johannes Betz, Chen Lv, Lei Xie",
-    "venue": "arXiv preprint arXiv:2607.25388",
+    "venue": "arXiv, 2026",
     "image": "assets/images/papers/sgtp-racing.png",
     "alt": "Sampling-based game-theoretic planning for multi-vehicle autonomous racing",
+    "titleUrl": "https://arxiv.org/abs/2607.25388",
     "links": [
-      {
-        "label": "arXiv",
-        "url": "https://arxiv.org/abs/2607.25388"
-      },
       {
         "label": "Project",
         "url": "https://sgtp-racing.github.io/"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2607.25388"
       },
       {
         "label": "Code",
@@ -82,7 +83,7 @@
     "title": "Vision-Guided MPPI for Agile Drone Racing: Navigating Arbitrary Gate Poses via Neural Signed Distance Fields",
     "authors": "Fangguo Zhao, Hanbing Zhang, Zhouheng Li, Xin Guan, Shuo Li",
     "venue": "IROS, 2026",
-    "image": "assets/images/papers/onboard-rl-racing-selected.png",
+    "image": "assets/images/papers/vision-guided-mppi-drone-racing.png",
     "alt": "Vision-guided MPPI for agile drone racing overview",
     "links": [
       {
@@ -107,8 +108,8 @@
     "year": "2026",
     "title": "EVO-MPCC: Enhanced Velocity Optimization with Learning-Based Auto-Tuning for Real-Time Vehicle Trajectory Planning",
     "authors": "Zhouheng Li, Bei Zhou, Mattia Piccinini, Cheng Hu, Baha Zarrouki, Rahul Mangharam, Lei Xie",
-    "venue": "Available at SSRN 6127037",
-    "image": "assets/images/papers/cimpcc-racing-selected.png",
+    "venue": "SSRN, 2026",
+    "image": "assets/images/papers/evo-mpcc.png",
     "alt": "Enhanced velocity optimization model predictive contouring control overview",
     "links": [
       {
@@ -141,8 +142,8 @@
     "year": "2026",
     "title": "An Overtaking Trajectory Planning Framework Based on Spatio-Temporal Topology and Reachable Set Analysis Ensuring Time Efficiency",
     "authors": "Wule Mao, Zhouheng Li, Entao Sun, Lei Xie, Hongye Su",
-    "venue": "IET Intelligent Transport Systems, 20 (1), e70260, 2026",
-    "image": "assets/images/papers/fsdp-overtaking.png",
+    "venue": "IET, 2026",
+    "image": "assets/images/papers/srop-overtaking.png",
     "alt": "Spatio-temporal topology and reachable-set overtaking trajectory planning overview",
     "links": [
       {
