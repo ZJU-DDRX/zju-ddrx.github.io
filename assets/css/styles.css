@@ -1265,15 +1265,8 @@ h3 {
   font-size: 14px;
 }
 
-.site-footer--with-counter {
-  flex-wrap: wrap;
-}
-
 .visitor-country-counter {
-  flex: 0 0 100%;
-  padding-top: 18px;
-  border-top: 1px solid var(--color-line);
-  text-align: center;
+  margin-top: 24px;
 }
 
 .visitor-country-counter a {
