@@ -653,5 +653,65 @@
       "MPC",
       "autonomous vehicles"
     ]
+  },
+  {
+    "year": "2023",
+    "title": "An MPC-Based Drifting Control System for Collision Avoidance in Autonomous Vehicles",
+    "authors": "Ran Duo, Cheng Hu, Xiaoling Zhou, Yu Qi, Lei Xie, Hongye Su",
+    "venue": "Smart Innovation, Systems and Technologies, 2023",
+    "image": "assets/images/papers/mpc-drifting-collision-avoidance.png",
+    "alt": "MPC-based drifting control system for collision avoidance in autonomous vehicles",
+    "links": [
+      {
+        "label": "Springer",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-99-5203-8_36"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1007/978-981-99-5203-8_36"
+      },
+      {
+        "label": "Scholar",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=1LV1boEAAAAJ&citation_for_view=1LV1boEAAAAJ:d1gkVwhDpl0C"
+      }
+    ],
+    "citation": "Ran Duo, Cheng Hu, Xiaoling Zhou, Yu Qi, Lei Xie, and Hongye Su. An MPC-Based Drifting Control System for Collision Avoidance in Autonomous Vehicles. Smart Innovation, Systems and Technologies, 2023.",
+    "bibtex": "@incollection{duo2023mpc,\n  title = {An MPC-Based Drifting Control System for Collision Avoidance in Autonomous Vehicles},\n  author = {Ran Duo and Cheng Hu and Xiaoling Zhou and Yu Qi and Lei Xie and Hongye Su},\n  booktitle = {Advanced Intelligent Technologies for Information and Communication},\n  series = {Smart Innovation, Systems and Technologies},\n  pages = {411--426},\n  year = {2023},\n  doi = {10.1007/978-981-99-5203-8_36}\n}",
+    "keywords": [
+      "drifting control",
+      "collision avoidance",
+      "model predictive control",
+      "autonomous vehicles"
+    ]
+  },
+  {
+    "year": "2022",
+    "title": "Learning-Based MPC Controller for Drift Control of Autonomous Vehicles",
+    "authors": "Xiaoling Zhou, Cheng Hu, Ran Duo, Haokun Xiong, Yu Qi, Zhiming Zhang, Hongye Su, Lei Xie",
+    "venue": "IEEE ITSC, 2022",
+    "image": "assets/images/papers/learning-based-mpc-drift-control.png",
+    "alt": "Learning-based MPC controller for drift control of autonomous vehicles",
+    "links": [
+      {
+        "label": "IEEE ITSC 2022",
+        "url": "https://ieeexplore.ieee.org/document/9921909"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/ITSC55140.2022.9921909"
+      },
+      {
+        "label": "Scholar",
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=1LV1boEAAAAJ&citation_for_view=1LV1boEAAAAJ:u-x6o8ySG0sC"
+      }
+    ],
+    "citation": "Xiaoling Zhou, Cheng Hu, Ran Duo, Haokun Xiong, Yu Qi, Zhiming Zhang, Hongye Su, and Lei Xie. Learning-Based MPC Controller for Drift Control of Autonomous Vehicles. IEEE ITSC, 2022.",
+    "bibtex": "@inproceedings{zhou2022learningmpc,\n  title = {Learning-Based MPC Controller for Drift Control of Autonomous Vehicles},\n  author = {Xiaoling Zhou and Cheng Hu and Ran Duo and Haokun Xiong and Yu Qi and Zhiming Zhang and Hongye Su and Lei Xie},\n  booktitle = {2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)},\n  pages = {322--328},\n  year = {2022},\n  doi = {10.1109/ITSC55140.2022.9921909}\n}",
+    "keywords": [
+      "drift control",
+      "learning-based MPC",
+      "model predictive control",
+      "autonomous vehicles"
+    ]
   }
 ]
