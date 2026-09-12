@@ -988,6 +988,54 @@ h3 {
   background: var(--color-soft);
 }
 
+.ifac-photo-carousel {
+  width: 100%;
+  margin-top: 14px;
+  overflow: hidden;
+  background: var(--color-soft);
+  outline: 0;
+}
+
+.ifac-photo-carousel:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+.ifac-photo-track {
+  display: flex;
+  width: 400%;
+  animation: ifac-photo-scroll 32s linear infinite;
+}
+
+.ifac-photo-carousel:hover .ifac-photo-track,
+.ifac-photo-carousel:focus-within .ifac-photo-track {
+  animation-play-state: paused;
+}
+
+.ifac-photo-track img {
+  flex: 0 0 12.5%;
+  width: 12.5%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--color-soft);
+}
+
+@keyframes ifac-photo-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ifac-photo-track {
+    animation: none;
+  }
+}
+
 .competition-media > img {
   width: 100%;
   aspect-ratio: 16 / 9;
